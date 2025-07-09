@@ -1,7 +1,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Pavornprat Mokarat
 ==========================================================================================================================================
 
-FullStack-Developer Data Analysis And AI Engineer.
+FullStack-Developer Data Analysis.
 -----------------------------------
 
 Highly organized and detail-oriented Programmer holding a Bachelor of Science, from Thai-Nichi Institute of Technology. The academic knowledge and practical experience that I have gained over the years have enabled me to obtain good knowledge on how to develop software, coding language, and ways of solving problems ranging from mild to complex. I hold working knowledge of numerous programming languages and frameworks and I am able to design, code, test, debug, and maintain effective client and end users solutions. Apart from my IT skills, I have other desirable attributes mainly the ability to work as an individual and at the same time as a team player. Innovative software development I am an enthusiastic learner eager to establish and enhance my knowledge of new technologies. Particularly, I am keen to be useful to any projects that can bring new horizons to any business as well as be of benefit to users.
