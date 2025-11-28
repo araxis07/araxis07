@@ -1,4 +1,3 @@
-
 <!-- Hero / Header -->
 <div align="center">
   <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Header banner" width="100%"/>
@@ -12,7 +11,9 @@
 
   <p>
     <a href="#contact"><img src="https://img.shields.io/badge/Contact-Email-1f6feb?style=for-the-badge&logo=gmail" alt="email badge"/></a>
-    <a href="#portfolio"><img src="https://img.shields.io/badge/Portfolio-My%20Profile-8957e5?style=for-the-badge&logo=vercel" alt="portfolio badge"/></a>
+    <a href="https://www.canva.com/design/DAGo87Xqlv0/V7Rt8Wqg-wEavR23EgsPOg/edit?utm_content=DAGo87Xqlv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Portfolio-My%20Profile-8957e5?style=for-the-badge&logo=vercel" alt="portfolio badge"/>
+</a>
     <img src="https://img.shields.io/badge/Location-Thailand-0ea5e9?style=for-the-badge&logo=google-maps" alt="location badge"/>
   </p>
 
