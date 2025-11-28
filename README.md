@@ -1,30 +1,109 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Pavornprat Mokarat
-==========================================================================================================================================
+<!--
+README.md for Pavornprat Mokarat (Aon)
+You can copy this into your GitHub profile repo: github.com/<your-username>/<your-username>
+Adjust links, usernames, and images as needed.
+-->
 
-FullStack-Developer Data Analysis.
------------------------------------
+<!-- Hero / Header -->
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Header banner" width="100%"/>
+  
+  <h1>Hi, I'm <span title="Pavornprat Mokarat">Pavornprat Mokarat</span> 👋</h1>
+  <h3>Full‑Stack Developer · Data Analysis</h3>
 
-Highly organized and detail-oriented Programmer holding a Bachelor of Science, from Thai-Nichi Institute of Technology. The academic knowledge and practical experience that I have gained over the years have enabled me to obtain good knowledge on how to develop software, coding language, and ways of solving problems ranging from mild to complex. I hold working knowledge of numerous programming languages and frameworks and I am able to design, code, test, debug, and maintain effective client and end users solutions. Apart from my IT skills, I have other desirable attributes mainly the ability to work as an individual and at the same time as a team player. Innovative software development I am an enthusiastic learner eager to establish and enhance my knowledge of new technologies. Particularly, I am keen to be useful to any projects that can bring new horizons to any business as well as be of benefit to users.
+  <p>
+    <a href="#contact"><img src="https://img.shields.io/badge/Contact-Email-1f6feb?style=for-the-badge&logo=gmail" alt="email badge"/></a>
+    <a href="#portfolio"><img src="https://img.shields.io/badge/Portfolio-My%20Profile-8957e5?style=for-the-badge&logo=vercel" alt="portfolio badge"/></a>
+    <img src="https://img.shields.io/badge/Location-Thailand-0ea5e9?style=for-the-badge&logo=google-maps" alt="location badge"/>
+  </p>
 
-* 🌍  I'm based in Thailand
-* 🖥️  See my portfolio at [My Profile](http://https://www.linkedin.com/in/pavornprat/)
-* ✉️  You can contact me at [pavornprat.aa@gmail.com](mailto:pavornprat.aa@gmail.com)
-* 🚀  I'm currently working on [Suvarnabhumi Airport (Internship)](http://https://suvarnabhumi.airportthai.co.th/)
-* 🧠  I'm learning React.js Express Flask Angular vue.js FastAPI Docker And Futter
-* ⚡  💪 自分の可能性を解放する新しい経験を見つけたい💪 。
+  <p>
+    <em>💪 自分の可能性を解放する新しい経験を見つけたい。</em>
+  </p>
+</div>
 
-### Skills
+---
 
+## 🧭 About Me
 
-<p align="left">
-<a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" width="36" height="36" alt="C#" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a><a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rlang-colored.svg" width="36" height="36" alt="rlang" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg" width="36" height="36" alt="VS Code" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a><a href="https://www.adobe.com/uk/products/xd.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored.svg" width="36" height="36" alt="XD" /></a><a href="https://wordpress.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/wordpress-colored.svg" width="36" height="36" alt="Wordpress" /></a><a href="https://wix.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/wix-colored.svg" width="36" height="36" alt="Wix" /></a><a href="https://apple.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored.svg" width="36" height="36" alt="MacOS" /></a><a href="https://www.raspberrypi.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi" /></a><a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" width="36" height="36" alt="TensorFlow" /></a>
+Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nichi Institute of Technology**. I design, build, test, and maintain reliable software across the stack. I enjoy turning ideas into useful, elegant solutions—while writing clean, maintainable code.
+
+- 🌍 Based in **Thailand**
+- 🚀 Currently interning at **Suvarnabhumi Airport**
+- 🧠 Learning **React, Express, Flask, Angular, Vue, FastAPI, Docker, Flutter**
+- ✉️ Reach me: **pavornprat.aa@gmail.com**
+- ⚡ Fun: I love exploring cross‑disciplinary ideas (engineering × data × design) and Japanese language & culture.
+
+> I’m a lifelong learner and team player who enjoys solving complex problems and shipping impactful products.
+
+---
+
+## 🧰 Toolbox
+
+<p align="center">
+  <!-- Generate your own set at https://skillicons.dev -->
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,next,vue,angular,redux,tailwind,bootstrap,materialui,nodejs,express,nest,fastapi,flask,python,java,go,ruby,cs,cpp,postgres,mysql,sqlite,vscode,mongodb,tensorflow,figma,git,github,linux,docker,aws,vercel,netlify,postman,arduino,unity&perline=10" alt="Skill icons"/>
 </p>
 
+<details>
+  <summary><strong>Expanded list</strong></summary>
 
-### Socials
+- **Languages:** C, C++, C#, Java, JavaScript, TypeScript, Python, Go, Ruby
+- **Frontend:** HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, Material UI, React, Next.js, Vue, Angular
+- **Backend:** Node.js, Express, NestJS, Flask, FastAPI
+- **Data/ML:** NumPy, TensorFlow, PostgreSQL, MySQL, SQLite, Oracle, MongoDB
+- **DevOps/Cloud:** Git, GitHub, Docker, AWS, Vercel, Netlify
+- **Tools:** Postman, Figma, Arduino, Unity, CanvasJS, Chart.js, Amplify
 
-<p align="left"> <a href="https://discord.com/users/https://discord.com/channels/@me" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /> </picture> </a> <a href="https://www.facebook.com/aon.pavornprat/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /> </picture> </a> <a href="https://www.github.com/araxis07" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/https://www.instagram.com/aon_tunder/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/pavornprat/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://www.stackoverflow.com/users/14506613/pavornprat-mokarat" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /> </picture> </a></p>
+</details>
 
-### Badges
+---
 
-<a href="https://github.com/araxis07" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=araxis07&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+## 🔭 What I’m Working On
+
+- Building internal dashboards and tools during my internship at **Suvarnabhumi Airport**
+- Practicing full‑stack patterns (REST, authentication, CI/CD) and scalable UI architecture
+- Strengthening data analysis and visualization skills
+
+---
+
+## 📚 Learning Journey
+
+- Modern React patterns (hooks, context, server components)
+- Backend APIs with Express / NestJS / FastAPI
+- Cloud‑native dev with Docker and CI/CD
+- Flutter for cross‑platform apps
+
+---
+
+## 🏆 Highlights
+
+- 🤝 Strong collaborator: comfortable working solo or in cross‑functional teams
+- 🧩 Problem solver: from small bugs to complex system design
+- 🚀 Curious & proactive: always exploring new technologies and best practices
+
+---
+
+
+## 📂 Projects & Portfolio <a id="portfolio"></a>
+
+- 🔗 **My Profile:https://github.com/araxis07
+- 🧭 My Best Team-Project:(https://github.com/araxis07/Sitcam-Project)
+
+
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <a href="https://github.com/araxis07">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=araxis07&theme=tokyonight&border=7F3FBF&background=#1b1b25" alt="Saif's GitHub streak"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/araxis07">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=araxis07&theme=tokyonight" alt="Al Siam's GitHub Contribution"/>
+  </a>
+</p>
