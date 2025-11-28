@@ -1,14 +1,13 @@
-<!--
-README.md for Pavornprat Mokarat (Aon)
-You can copy this into your GitHub profile repo: github.com/<your-username>/<your-username>
-Adjust links, usernames, and images as needed.
--->
 
 <!-- Hero / Header -->
 <div align="center">
   <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Header banner" width="100%"/>
   
   <h1>Hi, I'm <span title="Pavornprat Mokarat">Pavornprat Mokarat</span> 👋</h1>
+  <p align="center"> 
+    <img src="https://komarev.com/ghpvc/?username=araxis07&style=flat-square&color=blue"/>
+</p>
+ 
   <h3>Full‑Stack Developer · Data Analysis</h3>
 
   <p>
