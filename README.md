@@ -107,3 +107,17 @@ Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nich
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=araxis07&theme=tokyonight" alt="Al Siam's GitHub Contribution"/>
   </a>
 </p>
+
+<p align="center">
+    <a href="https://github.com/araxis07"><img alt="Al Siam's Github Stats" src="https://github-readme-stats.vercel.app/api?username=araxis07&show_icons=true&theme=tokyonight&border_color=7F3FBF" height="192px" width="55%"/>
+    </a>
+    <a href="https://github.com/araxis07"><img alt="Al Siam's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=araxis07&layout=compact&theme=tokyonight&border_color=7F3FBF" height="192px" width="42%"/>
+    </a>
+  <br/>
+</p>
+
+<div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=araxis07&custom_title=Al%20Siam's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=3faa9a&point=3faa9a&area_color=FFFFFF&title_color=749ee0&area=true" alt="Al Siam's Graph">
+</div>
+
+
