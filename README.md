@@ -107,12 +107,28 @@ Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nich
   </a>
 </p>
 
+<!-- Stats (summary-cards) -->
 <p align="center">
-    <a href="https://github.com/araxis07"><img alt="Al Siam's Github Stats" src="https://github-readme-stats.vercel.app/api?username=araxis07&show_icons=true&theme=tokyonight&border_color=7F3FBF" height="192px" width="55%"/>
-    </a>
-    <a href="https://github.com/araxis07"><img alt="Al Siam's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=araxis07&layout=compact&theme=tokyonight&border_color=7F3FBF" height="192px" width="42%"/>
-    </a>
-  <br/>
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=araxis07&theme=tokyonight"
+    alt="araxis07 Summary Stats"
+  />
+</p>
+
+<!-- Languages by commits -->
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=araxis07&theme=tokyonight"
+    alt="Most Commit Language"
+  />
+</p>
+
+<!-- Languages by repos (เสริม ถ้าต้องการ) -->
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=araxis07&theme=tokyonight"
+    alt="Repos per Language"
+  />
 </p>
 
 <div align="center">
