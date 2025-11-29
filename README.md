@@ -134,7 +134,7 @@ Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nich
 </p>
 
 <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=araxis07&custom_title=Al%20Siam's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=3faa9a&point=3faa9a&area_color=FFFFFF&title_color=749ee0&area=true" alt="Al Siam's Graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=araxis07&custom_title=GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=3faa9a&point=3faa9a&area_color=FFFFFF&title_color=749ee0&area=true" alt="GitHub Activity Graph">
 </div>
 
 
