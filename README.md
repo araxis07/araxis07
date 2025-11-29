@@ -32,6 +32,7 @@ Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nich
 - 🚀 Currently interning at **Suvarnabhumi Airport**
 - 🧠 Learning **React, Express, Flask, Angular, Vue, FastAPI, Docker, Flutter**
 - ✉️ Reach me: **pavornprat.aa@gmail.com**
+- ✉️ My Resume: **(https://www.canva.com/design/DAGo87Xqlv0/V7Rt8Wqg-wEavR23EgsPOg/edit?utm_content=DAGo87Xqlv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 - ⚡ Fun: I love exploring cross‑disciplinary ideas (engineering × data × design) and Japanese language & culture.
 
 > I’m a lifelong learner and team player who enjoys solving complex problems and shipping impactful products.
