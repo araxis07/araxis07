@@ -51,9 +51,9 @@ Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nich
 - **Languages:** C, C++, C#, Java, JavaScript, TypeScript, Python, Go, Ruby
 - **Frontend:** HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, Material UI, React, Next.js, Vue, Angular
 - **Backend:** Node.js, Express, NestJS, Flask, FastAPI
-- **Data/ML:** NumPy, TensorFlow, PostgreSQL, MySQL, SQLite, Oracle, MongoDB
+- **Data/ML:** NumPy, TensorFlow, PostgreSQL, MySQL, SQLite, MongoDB
 - **DevOps/Cloud:** Git, GitHub, Docker, AWS, Vercel, Netlify
-- **Tools:** Postman, Figma, Arduino, Unity, CanvasJS, Chart.js, Amplify
+- **Tools:** Postman, Figma, Arduino, Unity, CanvasJS, Chart.js, Amplify, Vscode
 
 </details>
 
