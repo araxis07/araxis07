@@ -1,129 +1,201 @@
-<!-- Hero / Header -->
+<!--
+  ARAXIS07 // Developer Profile
+  Deep-space palette: #030712 · #7C3AED · #22D3EE · #F472B6
+-->
+
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Header banner" width="100%"/>
-  
-  <h1>Hi, I'm <span title="Pavornprat Mokarat">Pavornprat Mokarat</span> 👋</h1>
-  <p align="center"> 
-    <img src="https://komarev.com/ghpvc/?username=araxis07&style=flat-square&color=blue"/>
-</p>
- 
-  <h3>Full‑Stack Developer · Data Analysis</h3>
+  <img src="./assets/space-profile-banner.webp" width="100%" alt="Pavornprat Mokarat — Full-Stack Developer" />
+
+  <br />
 
   <p>
-    <a href="#contact"><img src="https://img.shields.io/badge/Contact-Email-1f6feb?style=for-the-badge&logo=gmail" alt="email badge"/></a>
-    <a href="https://www.canva.com/design/DAGo87Xqlv0/V7Rt8Wqg-wEavR23EgsPOg/edit?utm_content=DAGo87Xqlv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Portfolio-My%20Profile-8957e5?style=for-the-badge&logo=vercel" alt="portfolio badge"/>
-</a>
-    <img src="https://img.shields.io/badge/Location-Thailand-0ea5e9?style=for-the-badge&logo=google-maps" alt="location badge"/>
+    <strong>Full-Stack Developer · Creative Technologist · Data Explorer</strong>
   </p>
 
   <p>
-    <em>💪 自分の可能性を解放する新しい経験を見つけたい。</em>
+    From Thailand, building the next chapter of my journey in Tokyo.
   </p>
+
+  <a href="mailto:pavornprat.aa@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Pavornprat" />
+  </a>
+  <a href="https://github.com/araxis07/Portfolio">
+    <img src="https://img.shields.io/badge/PORTFOLIO-0891B2?style=for-the-badge&logo=vercel&logoColor=white" alt="Pavornprat's portfolio" />
+  </a>
+  <a href="https://github.com/araxis07?tab=repositories">
+    <img src="https://img.shields.io/badge/REPOSITORIES-DB2777?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories" />
+  </a>
 </div>
 
 ---
 
-## 🧭 About Me
+## `01 // COMMAND DECK`
 
-Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nichi Institute of Technology**. I design, build, test, and maintain reliable software across the stack. I enjoy turning ideas into useful, elegant solutions—while writing clean, maintainable code.
+Hello, I'm **Pavornprat Mokarat** — a developer who enjoys transforming complex ideas into reliable, thoughtful digital products.
 
-- 🌍 Based in **Thailand**
-- 🚀 Currently interning at **Suvarnabhumi Airport**
-- 🧠 Learning **React, Express, Flask, Angular, Vue, FastAPI, Docker, Flutter**
-- ✉️ Reach me: **pavornprat.aa@gmail.com**
-- ✉️ My Resume: **https://shorturl.at/A9a75**
-- ⚡ Fun: I love exploring cross‑disciplinary ideas (engineering × data × design) and Japanese language & culture.
+I graduated from **Thai-Nichi Institute of Technology** with a B.Sc. in Information Technology and **Second-Class Honors**. My work spans frontend systems, backend APIs, dashboards, and data-rich interfaces, with a strong focus on clean architecture and maintainable code.
 
-> I’m a lifelong learner and team player who enjoys solving complex problems and shipping impactful products.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📍 Current Coordinates</h3>
+      <p>
+        <strong>Based in:</strong> Tokyo, Japan<br />
+        <strong>From:</strong> Thailand<br />
+        <strong>Role:</strong> Full-Stack Developer<br />
+        <strong>Education:</strong> B.Sc. Information Technology
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎯 Active Mission</h3>
+      <p>
+        Building practical full-stack products, exploring <strong>Go</strong> and <strong>Rust</strong>, and strengthening my Japanese with a long-term goal of reaching <strong>JLPT N2</strong>.
+      </p>
+    </td>
+  </tr>
+</table>
+
+> **Guiding principle:** Stay curious, understand the problem deeply, and build something that creates real value.
 
 ---
 
-## 🧰 Toolbox
+## `02 // TECHNOLOGY CONSTELLATION`
 
-<p align="center">
-  <!-- Generate your own set at https://skillicons.dev -->
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,next,vue,angular,redux,tailwind,bootstrap,materialui,nodejs,express,nest,fastapi,flask,python,java,go,ruby,cs,cpp,postgres,mysql,sqlite,vscode,mongodb,tensorflow,figma,git,github,linux,docker,aws,vercel,netlify,postman,arduino,unity&perline=10" alt="Skill icons"/>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Frontend Systems</h3>
+      <p>
+        <code>React</code>
+        <code>Next.js</code>
+        <code>TypeScript</code>
+        <code>JavaScript</code>
+        <code>Vue</code>
+        <code>Angular</code>
+        <code>Tailwind CSS</code>
+        <code>Material UI</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛰 Backend Systems</h3>
+      <p>
+        <code>Node.js</code>
+        <code>Express</code>
+        <code>NestJS</code>
+        <code>FastAPI</code>
+        <code>Flask</code>
+        <code>REST APIs</code>
+        <code>Authentication</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🪐 Data & Storage</h3>
+      <p>
+        <code>PostgreSQL</code>
+        <code>MySQL</code>
+        <code>SQLite</code>
+        <code>MongoDB</code>
+        <code>NumPy</code>
+        <code>TensorFlow</code>
+        <code>Data Visualization</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔭 Platform & Tools</h3>
+      <p>
+        <code>Git</code>
+        <code>GitHub Actions</code>
+        <code>Docker</code>
+        <code>AWS</code>
+        <code>Linux</code>
+        <code>Vercel</code>
+        <code>Postman</code>
+        <code>Figma</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <details>
-  <summary><strong>Expanded list</strong></summary>
-
-- **Languages:** C, C++, C#, Java, JavaScript, TypeScript, Python, Go, Ruby
-- **Frontend:** HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, Material UI, React, Next.js, Vue, Angular
-- **Backend:** Node.js, Express, NestJS, Flask, FastAPI
-- **Data/ML:** NumPy, TensorFlow, PostgreSQL, MySQL, SQLite, MongoDB
-- **DevOps/Cloud:** Git, GitHub, Docker, AWS, Vercel, Netlify
-- **Tools:** Postman, Figma, Arduino, Unity, CanvasJS, Chart.js, Amplify, Vscode
-
+  <summary><strong>Additional languages and technologies</strong></summary>
+  <br />
+  <code>Python</code>
+  <code>Java</code>
+  <code>Go</code>
+  <code>Rust</code>
+  <code>C</code>
+  <code>C++</code>
+  <code>C#</code>
+  <code>Ruby</code>
+  <code>Flutter</code>
+  <code>Redux</code>
+  <code>Chart.js</code>
+  <code>Arduino</code>
+  <code>Unity</code>
 </details>
 
 ---
 
-## 🔭 What I’m Working On
+## `03 // SELECTED MISSIONS`
 
-- Building internal dashboards and tools during my internship at **Suvarnabhumi Airport**
-- Practicing full‑stack patterns (REST, authentication, CI/CD) and scalable UI architecture
-- Strengthening data analysis and visualization skills
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>💰 <a href="https://github.com/araxis07/finance-dashboard">Finance Dashboard ↗</a></h3>
+      <p>A scalable fintech frontend for tracking transactions and visualizing financial insights.</p>
+      <p><sub>Next.js · Tailwind CSS · Zustand · Recharts</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🌸 <a href="https://github.com/araxis07/Website-Japan">Japan Travel Guide ↗</a></h3>
+      <p>A responsive bilingual experience covering destinations across Japan's nine regions.</p>
+      <p><sub>Next.js · TypeScript · Tailwind CSS</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🧍 <a href="https://github.com/araxis07/Sitcam-Project">Sitcam Project ↗</a></h3>
+      <p>A team-built posture coaching application that uses a computer camera to provide advice.</p>
+      <p><sub>Computer Vision · Web Application · Team Project</sub></p>
+    </td>
+  </tr>
+</table>
 
----
-
-## 📚 Learning Journey
-
-- Modern React patterns (hooks, context, server components)
-- Backend APIs with Express / NestJS / FastAPI
-- Cloud‑native dev with Docker and CI/CD
-- Flutter for cross‑platform apps
-
----
-
-## 🏆 Highlights
-
-- 🤝 Strong collaborator: comfortable working solo or in cross‑functional teams
-- 🧩 Problem solver: from small bugs to complex system design
-- 🚀 Curious & proactive: always exploring new technologies and best practices
-
----
-
-
-## 📂 Projects & Portfolio <a id="portfolio"></a>
-
-- 🔗 **My Profile:https://github.com/araxis07
-- 🧭 My Best Team-Project:(https://github.com/araxis07/Sitcam-Project)
-
-
-
----
-
-## 📈 GitHub Stats
-
-
-<!-- Stats (summary-cards) -->
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=araxis07&theme=tokyonight"
-    alt="araxis07 Summary Stats"
-  />
+<p align="right">
+  <a href="https://github.com/araxis07?tab=repositories"><strong>Explore all missions →</strong></a>
 </p>
 
-<!-- Languages by commits -->
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=araxis07&theme=tokyonight"
-    alt="Most Commit Language"
-  />
-</p>
+---
 
-<!-- Languages by repos (เสริม ถ้าต้องการ) -->
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=araxis07&theme=tokyonight"
-    alt="Repos per Language"
-  />
-</p>
+## `04 // CURRENT ORBIT`
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>🌐 BUILDING</strong><br /><br />
+      Full-stack products, internal tools, dashboards, and data-rich interfaces.
+    </td>
+    <td width="33%" valign="top">
+      <strong>⚙️ LEARNING</strong><br /><br />
+      Go, Rust, scalable APIs, cloud-native workflows, and Japanese.
+    </td>
+    <td width="33%" valign="top">
+      <strong>📈 EXPLORING</strong><br /><br />
+      Software engineering, data visualization, finance, and product design.
+    </td>
+  </tr>
+</table>
+
+---
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=araxis07&custom_title=GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=3faa9a&point=3faa9a&area_color=FFFFFF&title_color=749ee0&area=true" alt="GitHub Activity Graph">
+  <h3>「新しい経験を通して、自分の可能性を広げていきたい。」</h3>
+  <p><em>I want to expand my potential through new experiences.</em></p>
+  <br />
+  <a href="mailto:pavornprat.aa@gmail.com"><strong>Start a conversation</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/araxis07/Portfolio"><strong>View portfolio</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/araxis07?tab=repositories"><strong>Explore code</strong></a>
+  <br /><br />
+  <sub>ARAXIS07 // BUILDING BEYOND THE HORIZON</sub>
 </div>
-
-
