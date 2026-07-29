@@ -97,17 +97,6 @@ Highly organized and detail‑oriented developer with a B.Sc. from **Thai‑Nich
 
 ## 📈 GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/araxis07">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=araxis07&theme=tokyonight&border=7F3FBF&background=#1b1b25" alt="Saif's GitHub streak"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/araxis07">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=araxis07&theme=tokyonight" alt="Al Siam's GitHub Contribution"/>
-  </a>
-</p>
 
 <!-- Stats (summary-cards) -->
 <p align="center">
