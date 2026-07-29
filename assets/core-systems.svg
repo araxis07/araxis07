@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-labelledby="title desc">
+  <title id="title">Core systems</title>
+  <desc id="desc">React, Next.js, TypeScript, Node.js, Python, PostgreSQL, Docker, and AWS.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060817"/>
+      <stop offset="1" stop-color="#11102A"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset=".33" stop-color="#8B5CF6"/>
+      <stop offset=".66" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="126" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="124" rx="17" fill="none" stroke="#475569" stroke-opacity=".55"/>
+  <rect x="25" y="18" width="1150" height="2" rx="1" fill="url(#topLine)"/>
+
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="31" y="43" fill="#94A3B8" font-size="11" font-weight="700" letter-spacing="2.4">CORE SYSTEMS  //  PRODUCTION TOOLKIT</text>
+
+    <g font-size="15" font-weight="700">
+      <g transform="translate(30 59)">
+        <rect width="132" height="42" rx="12" fill="#071827" stroke="#22D3EE" stroke-opacity=".72"/>
+        <circle cx="21" cy="21" r="6" fill="#22D3EE"/>
+        <text x="38" y="27" fill="#E0F2FE">React</text>
+      </g>
+      <g transform="translate(174 59)">
+        <rect width="132" height="42" rx="12" fill="#10121F" stroke="#E2E8F0" stroke-opacity=".55"/>
+        <circle cx="21" cy="21" r="6" fill="#E2E8F0"/>
+        <text x="38" y="27" fill="#F8FAFC">Next.js</text>
+      </g>
+      <g transform="translate(318 59)">
+        <rect width="132" height="42" rx="12" fill="#0A1730" stroke="#60A5FA" stroke-opacity=".7"/>
+        <circle cx="21" cy="21" r="6" fill="#60A5FA"/>
+        <text x="38" y="27" fill="#DBEAFE">TypeScript</text>
+      </g>
+      <g transform="translate(462 59)">
+        <rect width="132" height="42" rx="12" fill="#102116" stroke="#4ADE80" stroke-opacity=".68"/>
+        <circle cx="21" cy="21" r="6" fill="#4ADE80"/>
+        <text x="38" y="27" fill="#DCFCE7">Node.js</text>
+      </g>
+      <g transform="translate(606 59)">
+        <rect width="132" height="42" rx="12" fill="#211A0C" stroke="#FACC15" stroke-opacity=".68"/>
+        <circle cx="21" cy="21" r="6" fill="#FACC15"/>
+        <text x="38" y="27" fill="#FEF9C3">Python</text>
+      </g>
+      <g transform="translate(750 59)">
+        <rect width="132" height="42" rx="12" fill="#0C1A2D" stroke="#38BDF8" stroke-opacity=".68"/>
+        <circle cx="21" cy="21" r="6" fill="#38BDF8"/>
+        <text x="38" y="27" fill="#E0F2FE">PostgreSQL</text>
+      </g>
+      <g transform="translate(894 59)">
+        <rect width="132" height="42" rx="12" fill="#0A1C2C" stroke="#0EA5E9" stroke-opacity=".68"/>
+        <circle cx="21" cy="21" r="6" fill="#0EA5E9"/>
+        <text x="38" y="27" fill="#E0F2FE">Docker</text>
+      </g>
+      <g transform="translate(1038 59)">
+        <rect width="132" height="42" rx="12" fill="#291708" stroke="#FB923C" stroke-opacity=".72"/>
+        <circle cx="21" cy="21" r="6" fill="#FB923C"/>
+        <text x="38" y="27" fill="#FFEDD5">AWS</text>
+      </g>
+    </g>
+  </g>
+</svg>
+

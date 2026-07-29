@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Mission status</title>
+  <desc id="desc">Current base Tokyo, origin Thailand, role Full-Stack Developer, and next targets JLPT N2, Go, and Rust.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset=".5" stop-color="#0B1026"/>
+      <stop offset="1" stop-color="#170A2E"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset=".35" stop-color="#7C3AED"/>
+      <stop offset=".7" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <radialGradient id="glowCyan">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink">
+      <stop offset="0" stop-color="#F472B6" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="230" rx="22" fill="url(#bg)"/>
+  <ellipse cx="100" cy="30" rx="270" ry="130" fill="url(#glowCyan)"/>
+  <ellipse cx="1080" cy="210" rx="310" ry="140" fill="url(#glowPink)"/>
+  <rect x="1" y="1" width="1198" height="228" rx="21" fill="none" stroke="#8B5CF6" stroke-opacity=".34" stroke-width="2"/>
+
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <circle cx="34" cy="29" r="5" fill="#22D3EE"/>
+    <circle cx="52" cy="29" r="5" fill="#7C3AED"/>
+    <circle cx="70" cy="29" r="5" fill="#F472B6"/>
+    <text x="94" y="34" fill="#CBD5E1" font-size="13" font-weight="700" letter-spacing="3">MISSION STATUS  //  ONLINE</text>
+
+    <g>
+      <rect x="28" y="58" width="270" height="132" rx="16" fill="#071827" stroke="#22D3EE" stroke-opacity=".58"/>
+      <rect x="28" y="58" width="5" height="132" rx="2.5" fill="#22D3EE"/>
+      <circle cx="262" cy="83" r="6" fill="#22D3EE"/>
+      <text x="52" y="91" fill="#67E8F9" font-size="12" font-weight="700" letter-spacing="2.2">CURRENT BASE</text>
+      <text x="52" y="132" fill="#F8FAFC" font-size="24" font-weight="800">TOKYO, JAPAN</text>
+      <text x="52" y="160" fill="#94A3B8" font-size="13" letter-spacing="1.2">BUILDING THE NEXT CHAPTER</text>
+    </g>
+
+    <g>
+      <rect x="319" y="58" width="270" height="132" rx="16" fill="#11102A" stroke="#8B5CF6" stroke-opacity=".62"/>
+      <rect x="319" y="58" width="5" height="132" rx="2.5" fill="#8B5CF6"/>
+      <circle cx="553" cy="83" r="6" fill="#A78BFA"/>
+      <text x="343" y="91" fill="#C4B5FD" font-size="12" font-weight="700" letter-spacing="2.2">ORIGIN</text>
+      <text x="343" y="132" fill="#F8FAFC" font-size="24" font-weight="800">THAILAND</text>
+      <text x="343" y="160" fill="#94A3B8" font-size="13" letter-spacing="1.2">TECH × CULTURE × CURIOSITY</text>
+    </g>
+
+    <g>
+      <rect x="610" y="58" width="270" height="132" rx="16" fill="#211023" stroke="#F472B6" stroke-opacity=".62"/>
+      <rect x="610" y="58" width="5" height="132" rx="2.5" fill="#F472B6"/>
+      <circle cx="844" cy="83" r="6" fill="#F9A8D4"/>
+      <text x="634" y="91" fill="#F9A8D4" font-size="12" font-weight="700" letter-spacing="2.2">PRIMARY ROLE</text>
+      <text x="634" y="128" fill="#F8FAFC" font-size="21" font-weight="800">FULL-STACK</text>
+      <text x="634" y="154" fill="#F8FAFC" font-size="18" font-weight="700">DEVELOPER</text>
+      <text x="634" y="175" fill="#94A3B8" font-size="11" letter-spacing="1">ENGINEERING • DATA • DESIGN</text>
+    </g>
+
+    <g>
+      <rect x="901" y="58" width="270" height="132" rx="16" fill="#25160D" stroke="#F59E0B" stroke-opacity=".68"/>
+      <rect x="901" y="58" width="5" height="132" rx="2.5" fill="#F59E0B"/>
+      <circle cx="1135" cy="83" r="6" fill="#FBBF24"/>
+      <text x="925" y="91" fill="#FCD34D" font-size="12" font-weight="700" letter-spacing="2.2">NEXT TARGET</text>
+      <text x="925" y="130" fill="#F8FAFC" font-size="23" font-weight="800">JLPT N2</text>
+      <text x="925" y="159" fill="#FED7AA" font-size="17" font-weight="700">GO  •  RUST</text>
+      <text x="925" y="177" fill="#94A3B8" font-size="10" letter-spacing=".9">LANGUAGE + SYSTEMS GROWTH</text>
+    </g>
+  </g>
+
+  <rect x="28" y="207" width="1143" height="3" rx="1.5" fill="url(#line)"/>
+</svg>
+

@@ -27,9 +27,17 @@
   </a>
 </div>
 
----
+<br />
 
-## `01 // COMMAND DECK`
+<div align="center">
+  <img src="./assets/mission-status.svg" width="100%" alt="Mission status: Tokyo, Thailand, Full-Stack Developer, JLPT N2, Go, and Rust" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/section-01-command-deck.svg" width="100%" alt="01 Command Deck — identity, background, and mission" />
+</div>
 
 Hello, I'm **Pavornprat Mokarat** — a developer who enjoys transforming complex ideas into reliable, thoughtful digital products.
 
@@ -55,11 +63,21 @@ I graduated from **Thai-Nichi Institute of Technology** with a B.Sc. in Informat
   </tr>
 </table>
 
-> **Guiding principle:** Stay curious, understand the problem deeply, and build something that creates real value.
+> ✦ **Guiding principle:** Stay curious, understand the problem deeply, and build something that creates real value.
 
----
+<br />
 
-## `02 // TECHNOLOGY CONSTELLATION`
+<div align="center">
+  <img src="./assets/section-02-technology.svg" width="100%" alt="02 Technology Constellation — frontend, backend, data, and platform" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/core-systems.svg" width="100%" alt="Core systems: React, Next.js, TypeScript, Node.js, Python, PostgreSQL, Docker, and AWS" />
+</div>
+
+<br />
 
 <table>
   <tr>
@@ -136,26 +154,28 @@ I graduated from **Thai-Nichi Institute of Technology** with a B.Sc. in Informat
   <code>Unity</code>
 </details>
 
----
+<br />
 
-## `03 // SELECTED MISSIONS`
+<div align="center">
+  <img src="./assets/section-03-missions.svg" width="100%" alt="03 Selected Missions — featured projects, products, and experiments" />
+</div>
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <h3>💰 <a href="https://github.com/araxis07/finance-dashboard">Finance Dashboard ↗</a></h3>
       <p>A scalable fintech frontend for tracking transactions and visualizing financial insights.</p>
-      <p><sub>Next.js · Tailwind CSS · Zustand · Recharts</sub></p>
+      <p><code>Next.js</code> <code>Tailwind CSS</code> <code>Zustand</code> <code>Recharts</code></p>
     </td>
     <td width="33%" valign="top">
       <h3>🌸 <a href="https://github.com/araxis07/Website-Japan">Japan Travel Guide ↗</a></h3>
       <p>A responsive bilingual experience covering destinations across Japan's nine regions.</p>
-      <p><sub>Next.js · TypeScript · Tailwind CSS</sub></p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code></p>
     </td>
     <td width="33%" valign="top">
       <h3>🧍 <a href="https://github.com/araxis07/Sitcam-Project">Sitcam Project ↗</a></h3>
       <p>A team-built posture coaching application that uses a computer camera to provide advice.</p>
-      <p><sub>Computer Vision · Web Application · Team Project</sub></p>
+      <p><code>Computer Vision</code> <code>Web App</code> <code>Team Project</code></p>
     </td>
   </tr>
 </table>
@@ -164,9 +184,11 @@ I graduated from **Thai-Nichi Institute of Technology** with a B.Sc. in Informat
   <a href="https://github.com/araxis07?tab=repositories"><strong>Explore all missions →</strong></a>
 </p>
 
----
+<br />
 
-## `04 // CURRENT ORBIT`
+<div align="center">
+  <img src="./assets/section-04-current-orbit.svg" width="100%" alt="04 Current Orbit — building, learning, and exploring" />
+</div>
 
 <table>
   <tr>
