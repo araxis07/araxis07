@@ -22,6 +22,9 @@
   <a href="https://canva.link/j33ybwperioom0j">
     <img src="https://img.shields.io/badge/RESUME-0891B2?style=for-the-badge&logo=readme&logoColor=white" alt="Pavornprat's resume" />
   </a>
+  <a href="https://araxis07.github.io">
+    <img src="https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Visit Pavornprat's portfolio website" />
+  </a>
   <a href="https://github.com/araxis07?tab=repositories">
     <img src="https://img.shields.io/badge/REPOSITORIES-DB2777?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories" />
   </a>
@@ -216,6 +219,8 @@ I graduated from **Thai-Nichi Institute of Technology** with a B.Sc. in Informat
   <a href="mailto:pavornprat.aa@gmail.com"><strong>Start a conversation</strong></a>
   &nbsp;·&nbsp;
   <a href="https://canva.link/j33ybwperioom0j"><strong>View resume</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://araxis07.github.io"><strong>Visit portfolio</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/araxis07?tab=repositories"><strong>Explore code</strong></a>
   <br /><br />
