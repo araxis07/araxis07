@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="Portfolio scope: six featured projects, two travel experiences and one terminal simulation. These are scope counts, not live GitHub activity statistics.">
+    <title>Portfolio scope: six featured projects, two travel experiences and one terminal simulation. These are scope counts, not live GitHub activity statistics.</title><style>:root{--bg:#0b0d17;--ink:#eff1ff;--muted:#a7b0cb;--rule:#30364f;--accent:#b6a0ff;--cyan:#65d9ed;--pink:#ee9bc8;--soft:#151729;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="1000" height="200" fill="#0b0d17"/><text x="48" y="25" font-size="12" fill="#a7b0cb" letter-spacing="2">PORTFOLIO AT A GLANCE</text><path d="M48 43H952" stroke="#30364f" class=""/><text x="48" y="113" font-size="40" fill="#b6a0ff" >06</text><text x="134" y="91" font-size="12" fill="#eff1ff" >FEATURED PROJECTS</text><text x="48" y="150" font-size="12" fill="#a7b0cb" >Documented in this profile.</text><text x="360" y="113" font-size="40" fill="#b6a0ff" >02</text><text x="446" y="91" font-size="12" fill="#eff1ff" >TRAVEL EXPERIENCES</text><text x="360" y="150" font-size="12" fill="#a7b0cb" >Japan and the United States.</text><text x="672" y="113" font-size="40" fill="#b6a0ff" >01</text><text x="758" y="91" font-size="12" fill="#eff1ff" >TERMINAL SIMULATION</text><text x="672" y="150" font-size="12" fill="#a7b0cb" >Nexus Tech / Stable Alpha.</text><path d="M48 167H952" stroke="#30364f" class=""/><text x="48" y="188" font-size="11" fill="#a7b0cb" letter-spacing=".4">SCOPE COUNTS / NOT LIVE GITHUB STATISTICS</text></svg>

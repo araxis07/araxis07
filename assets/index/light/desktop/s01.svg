@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 88" width="1000" height="88" role="img" aria-label="01 / WHOAMI">
+    <title>01 / WHOAMI</title><style>:root{--bg:#faf9ff;--ink:#232339;--muted:#565e77;--rule:#d2d3e4;--accent:#6743b4;--cyan:#086d85;--pink:#a93072;--soft:#eeeaf8;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="1000" height="88" fill="#faf9ff"/><path d="M48 17H952" stroke="#d2d3e4" class=""/><text x="48" y="65" font-size="34" fill="#6743b4" >01</text><text x="115" y="60" font-size="17" fill="#232339" letter-spacing="2">WHOAMI</text><text x="952" y="60" font-size="12" fill="#565e77" text-anchor="end">~/identity</text></svg>

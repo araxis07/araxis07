@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" width="1000" height="410" role="img" aria-label="Journey: TNI Information Technology graduate in 2025, four-month IT Support internship at Suvarnabhumi Airport, and Japanese study in Tokyo in 2026">
+    <title>Journey: TNI Information Technology graduate in 2025, four-month IT Support internship at Suvarnabhumi Airport, and Japanese study in Tokyo in 2026</title><style>:root{--bg:#0b0d17;--ink:#eff1ff;--muted:#a7b0cb;--rule:#30364f;--accent:#b6a0ff;--cyan:#65d9ed;--pink:#ee9bc8;--soft:#151729;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="1000" height="410" fill="#0b0d17"/><text x="48" y="31" font-size="12" fill="#b6a0ff" letter-spacing="1">EDUCATION / 2025</text><text x="48" y="62" font-size="19" fill="#eff1ff" >Thai-Nichi Institute of Technology</text><text x="48" y="95" font-size="15" fill="#a7b0cb" >B.Sc. Information Technology / Second-Class Honors.</text><path d="M48 125H952" stroke="#30364f" class=""/><text x="48" y="159" font-size="12" fill="#b6a0ff" letter-spacing="1">EXPERIENCE / 4 MONTHS</text><text x="48" y="190" font-size="19" fill="#eff1ff" >IT Support Intern / Suvarnabhumi Airport</text><text x="48" y="223" font-size="15" fill="#a7b0cb" >Computer-system troubleshooting, operational support and a data-visualization dashboard.</text><path d="M48 253H952" stroke="#30364f" class=""/><text x="48" y="287" font-size="12" fill="#b6a0ff" letter-spacing="1">CURRENT CHAPTER / 2026</text><text x="48" y="318" font-size="19" fill="#eff1ff" >Tokyo, Japan</text><text x="48" y="351" font-size="15" fill="#a7b0cb" >Studying Japanese while continuing to explore software, data and new experiences.</text><path d="M48 381H952" stroke="#30364f" class=""/></svg>

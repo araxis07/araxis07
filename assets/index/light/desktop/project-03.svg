@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 222" width="1000" height="222" role="img" aria-label="Nexus Tech. Offline business simulation with deterministic systems, company strategy, campaigns and SQLite saves. Stack: Python / Rich / Typer / SQLite. Status: Stable Alpha; human playtesting and pacing validation remain.">
+    <title>Nexus Tech. Offline business simulation with deterministic systems, company strategy, campaigns and SQLite saves. Stack: Python / Rich / Typer / SQLite. Status: Stable Alpha; human playtesting and pacing validation remain.</title><style>:root{--bg:#faf9ff;--ink:#232339;--muted:#565e77;--rule:#d2d3e4;--accent:#6743b4;--cyan:#086d85;--pink:#a93072;--soft:#eeeaf8;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="1000" height="222" fill="#faf9ff"/><text x="48" y="26" font-size="11" fill="#6743b4" letter-spacing="1.2">03 / TERMINAL SIMULATION</text><text x="48" y="61" font-size="24" fill="#232339" >Nexus Tech</text><text x="952" y="60" font-size="23" fill="#086d85" text-anchor="end">↗</text><text x="48" y="93" font-size="16" fill="#232339" >Offline business simulation with deterministic systems, company strategy, campaigns and</text><text x="48" y="118" font-size="16" fill="#232339" >SQLite saves.</text><text x="48" y="153" font-size="13" fill="#086d85" >Python / Rich / Typer / SQLite</text><text x="48" y="183" font-size="12" fill="#565e77" >Stable Alpha; human playtesting and pacing validation remain.</text><path d="M48 205H952" stroke="#d2d3e4" class=""/></svg>

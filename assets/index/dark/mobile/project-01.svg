@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 290" width="440" height="290" role="img" aria-label="Siam Luxe. Multilingual Thai dining platform with ordering, reservations, member accounts and admin workflows. Stack: Next.js / TypeScript / Supabase / PostgreSQL. Status: Product foundation; live provider setup and deployment remain.">
+    <title>Siam Luxe. Multilingual Thai dining platform with ordering, reservations, member accounts and admin workflows. Stack: Next.js / TypeScript / Supabase / PostgreSQL. Status: Product foundation; live provider setup and deployment remain.</title><style>:root{--bg:#0b0d17;--ink:#eff1ff;--muted:#a7b0cb;--rule:#30364f;--accent:#b6a0ff;--cyan:#65d9ed;--pink:#ee9bc8;--soft:#151729;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="440" height="290" fill="#0b0d17"/><text x="22" y="26" font-size="11" fill="#b6a0ff" letter-spacing="1.2">01 / FULL-STACK COMMERCE</text><text x="22" y="61" font-size="24" fill="#eff1ff" >Siam Luxe</text><text x="22" y="93" font-size="16" fill="#eff1ff" >Multilingual Thai dining platform with</text><text x="22" y="118" font-size="16" fill="#eff1ff" >ordering, reservations, member accounts</text><text x="22" y="143" font-size="16" fill="#eff1ff" >and admin workflows.</text><text x="22" y="178" font-size="13" fill="#65d9ed" >Next.js / TypeScript / Supabase /</text><text x="22" y="200" font-size="13" fill="#65d9ed" >PostgreSQL</text><text x="22" y="230" font-size="12" fill="#a7b0cb" >Product foundation; live provider setup and</text><text x="22" y="251" font-size="12" fill="#a7b0cb" >deployment remain.</text><path d="M22 273H418" stroke="#30364f" class=""/></svg>

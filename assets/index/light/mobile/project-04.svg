@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 268" width="440" height="268" role="img" aria-label="Finance Dashboard. Income, expense and transaction views with category charts, file upload UI and local persistence. Stack: Next.js / Tailwind CSS / Zustand / Recharts. Status: Frontend MVP; parsing is mocked and data stays local.">
+    <title>Finance Dashboard. Income, expense and transaction views with category charts, file upload UI and local persistence. Stack: Next.js / Tailwind CSS / Zustand / Recharts. Status: Frontend MVP; parsing is mocked and data stays local.</title><style>:root{--bg:#faf9ff;--ink:#232339;--muted:#565e77;--rule:#d2d3e4;--accent:#6743b4;--cyan:#086d85;--pink:#a93072;--soft:#eeeaf8;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="440" height="268" fill="#faf9ff"/><text x="22" y="26" font-size="11" fill="#6743b4" letter-spacing="1.2">04 / FINTECH FRONTEND</text><text x="22" y="61" font-size="24" fill="#232339" >Finance Dashboard</text><text x="22" y="93" font-size="16" fill="#232339" >Income, expense and transaction views</text><text x="22" y="118" font-size="16" fill="#232339" >with category charts, file upload UI</text><text x="22" y="143" font-size="16" fill="#232339" >and local persistence.</text><text x="22" y="178" font-size="13" fill="#086d85" >Next.js / Tailwind CSS / Zustand / Recharts</text><text x="22" y="208" font-size="12" fill="#565e77" >Frontend MVP; parsing is mocked and data</text><text x="22" y="229" font-size="12" fill="#565e77" >stays local.</text><path d="M22 251H418" stroke="#d2d3e4" class=""/></svg>

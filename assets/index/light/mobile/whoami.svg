@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 409" width="440" height="409" role="img" aria-label="About Aon: TNI Information Technology graduate with Second-Class Honors; building web products, learning Go, Rust and Japanese, with JLPT N2 as a long-term goal">
+    <title>About Aon: TNI Information Technology graduate with Second-Class Honors; building web products, learning Go, Rust and Japanese, with JLPT N2 as a long-term goal</title><style>:root{--bg:#faf9ff;--ink:#232339;--muted:#565e77;--rule:#d2d3e4;--accent:#6743b4;--cyan:#086d85;--pink:#a93072;--soft:#eeeaf8;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="440" height="409" fill="#faf9ff"/><text x="22" y="27" font-size="16" fill="#232339" >Hello, I’m Aon — a developer who enjoys</text><text x="22" y="52" font-size="16" fill="#232339" >turning complex ideas into practical</text><text x="22" y="77" font-size="16" fill="#232339" >digital products.</text><text x="22" y="116" font-size="16" fill="#232339" >B.Sc. Information Technology, Thai-</text><text x="22" y="141" font-size="16" fill="#232339" >Nichi Institute of Technology. Second-</text><text x="22" y="166" font-size="16" fill="#232339" >Class Honors.</text><text x="22" y="205" font-size="16" fill="#565e77" >My work spans frontend interfaces,</text><text x="22" y="230" font-size="16" fill="#565e77" >backend APIs, dashboards and data-rich</text><text x="22" y="255" font-size="16" fill="#565e77" >experiences.</text><path d="M22 294H418" stroke="#d2d3e4" class=""/><text x="22" y="327" font-size="15" fill="#6743b4" >LEARNING / Go, Rust and Japanese.</text><text x="22" y="364" font-size="15" fill="#565e77" >LONG-TERM LANGUAGE GOAL / JLPT N2.</text></svg>

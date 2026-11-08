@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 356" width="1000" height="356" role="img" aria-label="Pavornprat Mokarat / Aon / Full-Stack Developer from Thailand, based in Tokyo, Japan">
+    <title>Pavornprat Mokarat / Aon / Full-Stack Developer from Thailand, based in Tokyo, Japan</title><style>:root{--bg:#0b0d17;--ink:#eff1ff;--muted:#a7b0cb;--rule:#30364f;--accent:#b6a0ff;--cyan:#65d9ed;--pink:#ee9bc8;--soft:#151729;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
+    .cursor{animation:cursor 1.5s steps(1) infinite}
+    .breathe{animation:breathe 4s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-26}}
+    @keyframes cursor{50%{opacity:.18}}
+    @keyframes breathe{50%{opacity:.45}}
+    @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
+    </style>
+    <rect width="1000" height="356" fill="#0b0d17"/><text x="48" y="30" font-size="11" fill="#a7b0cb" letter-spacing="1.5">ARAXIS07 / DEVELOPER INDEX</text><path d="M48 44H952" stroke="#30364f" class=""/><text x="952" y="30" font-size="11" fill="#a7b0cb" text-anchor="end" letter-spacing="1.2">THAILAND → TOKYO, JAPAN</text><text x="46" y="143" font-size="69" fill="#eff1ff" letter-spacing="-2.5">Pavornprat Mokarat</text><text x="48" y="183" font-size="20" fill="#b6a0ff" letter-spacing="1">AON / FULL-STACK DEVELOPER</text><text x="48" y="239" font-size="18" fill="#eff1ff" >Interfaces. APIs. Data. Ideas.</text><text x="48" y="270" font-size="15" fill="#a7b0cb" >Building thoughtful digital products with curiosity and intent.</text><path d="M48 303H952" stroke="#30364f" class=""/><text x="48" y="333" font-size="12" fill="#b6a0ff" letter-spacing="2">WEB SYSTEMS</text><text x="300" y="333" font-size="12" fill="#65d9ed" letter-spacing="2">DATA &amp; VISUALIZATION</text><text x="644" y="333" font-size="12" fill="#ee9bc8" letter-spacing="2">CREATIVE ENGINEERING</text><rect x="943" y="318" width="8" height="17" fill="#65d9ed" class="cursor"/></svg>
