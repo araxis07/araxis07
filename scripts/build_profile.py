@@ -3,14 +3,19 @@
 
 Layout inspired by https://github.com/Sharann-del/Sharann-del.
 All artwork is drawn here; profile content and links belong to araxis07.
-No network calls, generated statistics, external fonts or runtime dependencies.
+No network calls, external fonts or runtime dependencies. Quantitative artwork
+uses the reviewed public GitHub snapshot in data/github-stats.json.
 """
 from pathlib import Path
 from html import escape
 import textwrap
+import json
+import math
+from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets' / 'index'
+STATS = json.loads((ROOT / 'data' / 'github-stats.json').read_text())
 
 PROJECTS = [
     ('Siam Luxe', 'Siam-Luxe', 'FULL-STACK COMMERCE',
@@ -107,7 +112,7 @@ def build(theme, mobile):
         height=270
     save('header',height,body,'Pavornprat Mokarat / Aon / Full-Stack Developer from Thailand, based in Tokyo, Japan')
 
-    for n,title,path in [(1,'WHOAMI','identity'),(2,'SYSTEM MAP','work'),(3,'PROJECTS','selected'),(4,'SIGNALS','scope'),(5,'THE ROUTE','journey'),(6,'STACK','tools')]:
+    for n,title,path in [(1,'WHOAMI','identity'),(2,'SYSTEM MAP','work'),(3,'PROJECTS','selected'),(4,'TELEMETRY','activity'),(5,'THE ROUTE','journey'),(6,'STACK','tools')]:
         b=rule(13)+t(left,47,f'{n:02}',24,'accent')
         b+=t(left+50,44,title,14,extra='letter-spacing="1.7"')
         if not mobile:b+=t(right,44,'~/'+path,11,'muted','text-anchor="end"')
@@ -181,20 +186,93 @@ def build(theme, mobile):
         body+=rule(y);y+=27
     save('route',y-5,body,'Journey: TNI Information Technology graduate in 2025, four-month IT Support internship at Suvarnabhumi Airport, and Japanese study in Tokyo in 2026')
 
-    groups=[('FRONTEND',['React / Next.js / TypeScript','JavaScript / Tailwind CSS / Material UI']),('BACKEND',['Node.js / NestJS / Express','REST APIs / Authentication']),('DATA',['PostgreSQL / MySQL / Supabase','SQLite / pgvector / Recharts']),('WORKFLOW',['Git / GitHub Actions / Docker','Playwright / Vite / Postman'])]
+    groups=[
+        ('LANGUAGES',['TypeScript / JavaScript / Python','Go / Rust / Ruby / SQL']),
+        ('FRONTEND',['Next.js / React / Tailwind CSS','Material UI / HTML / CSS']),
+        ('BACKEND',['Node.js / NestJS / Express','REST APIs / Authentication']),
+        ('DATA & STORAGE',['PostgreSQL / Supabase / MySQL','SQLite / pgvector / Recharts']),
+        ('TESTING & QUALITY',['Playwright / Postman','E2E testing / API testing']),
+        ('DELIVERY & TOOLS',['Git / GitHub / GitHub Actions','CI/CD pipelines / Docker / Vite']),
+    ]
     body=''
     for i,(label,rows) in enumerate(groups):
         x=left if mobile else left+(i%2)*464;y=29+i*118 if mobile else 29+(i//2)*122
         body+=t(x,y,label,12,'accent','letter-spacing="2"')
         for j,row in enumerate(rows):body+=t(x,y+31+j*25,row,14,'ink' if j==0 else 'muted')
         body+=line(x,y+94,right if mobile else x+422,y+94)
-    save('stack',500 if mobile else 257,body,'Technical stack includes React, Next.js, TypeScript, JavaScript, Tailwind CSS, Material UI, Node.js, NestJS, Express, REST APIs, authentication, PostgreSQL, MySQL, Supabase, SQLite, pgvector, Recharts, Git, GitHub Actions, Docker, Playwright, Vite and Postman')
+    save('stack',736 if mobile else 379,body,'Technical stack: ' + '; '.join(label + ': ' + ', '.join(rows) for label,rows in groups))
 
     body=rule(20,'','accent')
     body+=t(left,51,'STAY CURIOUS. BUILD WITH INTENT.',14 if mobile else 17,'accent')
     body+=t(left,77,'Code / data / finance / Japanese / new experiences',11 if mobile else 14,'muted')
     body+=t(left,104,'ARAXIS07 / BUILDING BEYOND THE HORIZON',10 if mobile else 11,'muted','letter-spacing=".5"')
     save('footer',122,body,'Stay curious. Build with intent. Aon / araxis07 / building beyond the horizon')
+
+def build_telemetry(theme):
+    repos=STATS['repositories']
+    assert repos and all(not r['private'] for r in repos)
+    assert len({r['full_name'] for r in repos}) == len(repos)
+    langs=Counter(r['language'] or 'Unclassified' for r in repos)
+    years=Counter(r['created_at'][:4] for r in repos)
+    n=len(repos)
+    date=STATS['snapshot_date']
+    ordered=sorted(langs.items(), key=lambda x:(-x[1],x[0]))
+    # Quantitative bar lengths start at zero; direct labels carry count/share.
+    body=t(48,27,'PUBLIC GITHUB TELEMETRY',12,'accent','letter-spacing="1.6"')
+    body+=t(952,27,'SNAPSHOT / '+date,11,'muted','text-anchor="end"')+line(48,43,952,43)
+    body+=t(48,76,'PRIMARY LANGUAGES',13)+t(48,99,f'Repository count / share of {n} public repos',11,'muted')
+    maxlang=max(langs.values())
+    start=130;step=28
+    for i,(lang,count) in enumerate(ordered):
+        y=start+i*step
+        body+=t(48,y,lang,13)
+        body+=f'<rect x="165" y="{y-9}" width="220" height="8" fill="var(--soft)"/>'
+        body+=f'<rect x="165" y="{y-9}" width="{220*count/maxlang:.3f}" height="8" fill="var(--accent)"/>'
+        body+=t(480,y,f'{count} / {100*count/n:.1f}%',12,'muted','text-anchor="end"')
+    axis_y=start+(len(ordered)-1)*step+24
+    body+=line(165,axis_y,385,axis_y)+t(165,axis_y+18,'0',11,'muted')
+    body+=t(385,axis_y+18,str(maxlang)+' repos',11,'muted','text-anchor="end"')
+
+    body+=line(516,66,516,axis_y+20)
+    body+=t(548,76,'REPOSITORIES CREATED',13)+t(548,99,'Current public set / grouped by creation year',11,'muted')
+    year_rows=sorted(years.items())
+    chart_left,chart_right,baseline,chart_h=580,936,381,240
+    tick_step=max(5,math.ceil(max(years.values())/15)*5)
+    ceiling=tick_step*3
+    for i in range(4):
+        value=tick_step*i;y=baseline-chart_h*value/ceiling
+        body+=line(chart_left,y,chart_right,y)
+        body+=t(565,y+4,str(value),11,'muted','text-anchor="end"')
+    band=(chart_right-chart_left)/len(year_rows)
+    bar_width=min(48,band*.6)
+    for i,(year,count) in enumerate(year_rows):
+        x=chart_left+band*(i+.5);height=chart_h*count/ceiling
+        body+=f'<rect x="{x-bar_width/2:.2f}" y="{baseline-height:.2f}" width="{bar_width:.2f}" height="{height:.2f}" fill="var(--cyan)"/>'
+        body+=t(x,baseline-height-11,str(count),14,'ink','text-anchor="middle"')
+        body+=t(x,baseline+26,year,12,'muted','text-anchor="middle"')
+    bottom=max(axis_y+55,466)
+    body+=line(48,bottom,952,bottom)
+    body+=t(48,bottom+25,'One primary language per repository. Percentages describe repository shares.',11,'muted')
+    body+=t(48,bottom+46,'Creation year is taken from the current public repository set. Public-data snapshot.',11,'muted')
+    label='Public GitHub snapshot '+date+'. Primary languages: '+', '.join(f'{k}: {v} repositories ({100*v/n:.1f} percent)' for k,v in ordered)+'. Repositories by creation year: '+', '.join(f'{y}: {v}' for y,v in year_rows)+'.'
+    svg('telemetry',1000,bottom+65,body,theme,False,label)
+
+    body=t(48,28,'GITHUB STATS',13,'accent','letter-spacing="1.6"')
+    body+=t(952,28,'PUBLIC DATA / '+date,11,'muted','text-anchor="end"')+line(48,45,952,45)
+    metrics=[
+        (n,'PUBLIC REPOSITORIES','Owned by araxis07'),
+        (len([k for k in langs if k!='Unclassified']),'PRIMARY LANGUAGES','GitHub repository labels'),
+        (len(PROJECTS),'FEATURED PROJECTS','Documented in this profile'),
+        (sum(r['stars'] for r in repos),'REPOSITORY STARS','Across owned public repos'),
+        (STATS['authored_public_pull_requests'],'PUBLIC PRs AUTHORED','Across public GitHub repos'),
+        (STATS['authored_public_issues'],'PUBLIC ISSUES AUTHORED','Across public GitHub repos'),
+    ]
+    for i,(value,label,caption) in enumerate(metrics):
+        x=48+(i%3)*312;y=93+(i//3)*89
+        body+=t(x,y,str(value),28,'accent')+t(x+65,y-11,label,11)
+        body+=t(x+65,y+11,caption,10,'muted')
+    body+=line(48,218,952,218)+t(48,242,'Snapshot values / source data and counting definitions are linked below.',11,'muted')
+    svg('github-stats',1000,262,body,theme,False,'Public GitHub stats as of '+date+': '+', '.join(f'{v} {label.lower()}' for v,label,_ in metrics)+'.')
 
 def picture(name,alt):
     base=f'assets/index'
@@ -219,7 +297,21 @@ def readme():
     for i,(name,repo,category,description,stack,status) in enumerate(PROJECTS,1):
         parts += [f'<a href="https://github.com/araxis07/{repo}">\n'+picture(f'project-{i:02}',f'{name} — {description} {status} Open repository.')+'\n</a>']
     parts+=['<p align="right"><a href="https://araxis07.github.io"><strong>View case studies on my portfolio →</strong></a></p>',
-    '<details>\n<summary><strong>More projects from my previous profile</strong></summary>\n\n- [Japan Travel Guide](https://github.com/araxis07/Website-Japan)\n- [Sitcam Project](https://github.com/araxis07/Sitcam-Project)\n\n</details>',picture('s04','04 / signals'),picture('signals','Portfolio scope: six featured projects, two travel experiences and one terminal simulation. Not live GitHub statistics.'),picture('s05','05 / the route'),picture('route','TNI graduate in 2025. Four-month IT Support internship at Suvarnabhumi Airport. Studying Japanese in Tokyo in 2026.'),picture('s06','06 / stack'),picture('stack','React, Next.js, TypeScript, Node.js, NestJS, PostgreSQL, Supabase, Docker, GitHub Actions and more.')]
+    '<details>\n<summary><strong>More projects from my previous profile</strong></summary>\n\n- [Japan Travel Guide](https://github.com/araxis07/Website-Japan)\n- [Sitcam Project](https://github.com/araxis07/Sitcam-Project)\n\n</details>',
+    picture('s04','04 / telemetry'),
+    picture('telemetry','Public GitHub snapshot '+STATS['snapshot_date']+': primary language distribution by repository count and public repositories grouped by creation year.'),
+    picture('github-stats','Public GitHub statistics: repository count, primary languages, featured projects, repository stars, authored public pull requests and authored public issues.'),
+    '''<details>
+<summary><strong>Data sources and counting definitions</strong></summary>
+
+- [Public GitHub snapshot and source URLs](data/github-stats.json)
+- Language shares count each current public repository once, using GitHub's primary-language label.
+- Creation-year bars group the current public repositories by their creation date.
+- Stars cover owned public repositories; authored PR and issue totals cover public GitHub repositories.
+- [How to refresh the snapshot](docs/telemetry.md)
+
+</details>''',
+    picture('s05','05 / the route'),picture('route','TNI graduate in 2025. Four-month IT Support internship at Suvarnabhumi Airport. Studying Japanese in Tokyo in 2026.'),picture('s06','06 / stack'),picture('stack','Languages: TypeScript, JavaScript, Python, Go, Rust, Ruby, SQL. Frontend: Next.js, React, Tailwind CSS and Material UI. Backend: Node.js, NestJS and Express. Data: PostgreSQL, Supabase, MySQL, SQLite and pgvector. Testing: Playwright and Postman. Delivery: Git, GitHub, GitHub Actions, CI/CD pipelines, Docker and Vite.')]
     parts+=['''<details>
 <summary><strong>Additional technologies</strong></summary>
 <br />
@@ -240,5 +332,6 @@ Go and Rust are part of my ongoing learning.
 if __name__=='__main__':
     for theme in PALETTES:
         for mobile in (False,True):build(theme,mobile)
+        build_telemetry(theme)
     (ROOT/'README.md').write_text(readme())
     print(f'Generated README and {len(list(ASSETS.rglob("*.svg")))} SVGs.')

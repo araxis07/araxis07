@@ -96,13 +96,29 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s04.svg" />
-  <img src="assets/index/light/desktop/s04.svg" width="100%" alt="04 / signals" />
+  <img src="assets/index/light/desktop/s04.svg" width="100%" alt="04 / telemetry" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/signals.svg" />
-  <img src="assets/index/light/desktop/signals.svg" width="100%" alt="Portfolio scope: six featured projects, two travel experiences and one terminal simulation. Not live GitHub statistics." />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/telemetry.svg" />
+  <img src="assets/index/light/desktop/telemetry.svg" width="100%" alt="Public GitHub snapshot 2026-11-09: primary language distribution by repository count and public repositories grouped by creation year." />
 </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/github-stats.svg" />
+  <img src="assets/index/light/desktop/github-stats.svg" width="100%" alt="Public GitHub statistics: repository count, primary languages, featured projects, repository stars, authored public pull requests and authored public issues." />
+</picture>
+
+<details>
+<summary><strong>Data sources and counting definitions</strong></summary>
+
+- [Public GitHub snapshot and source URLs](data/github-stats.json)
+- Language shares count each current public repository once, using GitHub's primary-language label.
+- Creation-year bars group the current public repositories by their creation date.
+- Stars cover owned public repositories; authored PR and issue totals cover public GitHub repositories.
+- [How to refresh the snapshot](docs/telemetry.md)
+
+</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s05.svg" />
@@ -121,7 +137,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/stack.svg" />
-  <img src="assets/index/light/desktop/stack.svg" width="100%" alt="React, Next.js, TypeScript, Node.js, NestJS, PostgreSQL, Supabase, Docker, GitHub Actions and more." />
+  <img src="assets/index/light/desktop/stack.svg" width="100%" alt="Languages: TypeScript, JavaScript, Python, Go, Rust, Ruby, SQL. Frontend: Next.js, React, Tailwind CSS and Material UI. Backend: Node.js, NestJS and Express. Data: PostgreSQL, Supabase, MySQL, SQLite and pgvector. Testing: Playwright and Postman. Delivery: Git, GitHub, GitHub Actions, CI/CD pipelines, Docker and Vite." />
 </picture>
 
 <details>

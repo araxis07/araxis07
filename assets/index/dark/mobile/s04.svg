@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 64" width="440" height="64" role="img" aria-label="04 / SIGNALS">
-    <title>04 / SIGNALS</title><style>:root{--bg:#0b0d17;--ink:#eff1ff;--muted:#a7b0cb;--rule:#30364f;--accent:#b6a0ff;--cyan:#65d9ed;--pink:#ee9bc8;--soft:#151729;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 64" width="440" height="64" role="img" aria-label="04 / TELEMETRY">
+    <title>04 / TELEMETRY</title><style>:root{--bg:#0b0d17;--ink:#eff1ff;--muted:#a7b0cb;--rule:#30364f;--accent:#b6a0ff;--cyan:#65d9ed;--pink:#ee9bc8;--soft:#151729;}text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
     .flow{stroke-dasharray:3 10;animation:flow 3s linear infinite}
     .cursor{animation:cursor 1.5s steps(1) infinite}
     .breathe{animation:breathe 4s ease-in-out infinite}
@@ -8,4 +8,4 @@
     @keyframes breathe{50%{opacity:.45}}
     @media(prefers-reduced-motion:reduce){.flow,.cursor,.breathe{animation:none}}
     </style>
-    <rect width="440" height="64" fill="#0b0d17"/><path d="M22 13H418" stroke="#30364f" class=""/><text x="22" y="47" font-size="24" fill="#b6a0ff" >04</text><text x="72" y="44" font-size="14" fill="#eff1ff" letter-spacing="1.7">SIGNALS</text></svg>
+    <rect width="440" height="64" fill="#0b0d17"/><path d="M22 13H418" stroke="#30364f" class=""/><text x="22" y="47" font-size="24" fill="#b6a0ff" >04</text><text x="72" y="44" font-size="14" fill="#eff1ff" letter-spacing="1.7">TELEMETRY</text></svg>
