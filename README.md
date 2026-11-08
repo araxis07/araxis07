@@ -11,13 +11,10 @@
 
 <br />
 
-<a href="https://araxis07.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-7C3AED?style=flat-square" alt="Portfolio" /></a>
-
-<a href="https://github.com/araxis07?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-DB2777?style=flat-square" alt="Repositories" /></a>
-
-<a href="https://canva.link/j33ybwperioom0j"><img src="https://img.shields.io/badge/RESUME-0891B2?style=flat-square" alt="Resume" /></a>
-
-<a href="mailto:pavornprat.aa@gmail.com"><img src="https://img.shields.io/badge/EMAIL-7C3AED?style=flat-square" alt="Email" /></a>
+<a href="https://araxis07.github.io"><img src="assets/index/buttons/portfolio.svg" width="138" height="34" alt="Portfolio" /></a>
+<a href="https://github.com/araxis07?tab=repositories"><img src="assets/index/buttons/repositories.svg" width="138" height="34" alt="Repositories" /></a>
+<a href="https://canva.link/j33ybwperioom0j"><img src="assets/index/buttons/resume.svg" width="138" height="34" alt="Resume" /></a>
+<a href="mailto:pavornprat.aa@gmail.com"><img src="assets/index/buttons/email.svg" width="138" height="34" alt="Email" /></a>
 
 </div>
 
@@ -165,8 +162,6 @@
 <details>
 <summary><strong>Additional technologies</strong></summary>
 <br />
-
-Technologies also listed in my previous profile:
 
 `Python` `Java` `C` `C++` `C#` `Ruby` `Vue` `Angular` `Flutter` `Redux` `Chart.js` `FastAPI` `Flask` `MongoDB` `NumPy` `TensorFlow` `AWS` `Linux` `Vercel` `Figma` `Arduino` `Unity`
 
