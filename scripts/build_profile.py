@@ -198,9 +198,10 @@ def build(theme, mobile):
 
 def picture(name,alt):
     base=f'assets/index'
+    # GitHub's themed README rendering must select only between equal canvases.
+    # A narrow-layout source can be promoted by its theme and then stretched
+    # across the profile overview. Keep both theme sources at viewBox 1000.
     return f'''<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="{base}/dark/mobile/{name}.svg" />
-  <source media="(max-width: 600px)" srcset="{base}/light/mobile/{name}.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="{base}/dark/desktop/{name}.svg" />
   <img src="{base}/light/desktop/{name}.svg" width="100%" alt="{escape(alt,quote=True)}" />
 </picture>'''

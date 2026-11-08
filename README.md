@@ -3,8 +3,6 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/header.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/header.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/header.svg" />
   <img src="assets/index/light/desktop/header.svg" width="100%" alt="Pavornprat Mokarat — Aon / Full-Stack Developer / Thailand → Tokyo, Japan" />
 </picture>
@@ -19,44 +17,32 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/s01.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/s01.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s01.svg" />
   <img src="assets/index/light/desktop/s01.svg" width="100%" alt="01 / whoami" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/whoami.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/whoami.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/whoami.svg" />
   <img src="assets/index/light/desktop/whoami.svg" width="100%" alt="TNI Information Technology graduate with Second-Class Honors. Frontend, backend APIs and data interfaces. Learning Go, Rust and Japanese; JLPT N2 is a long-term goal." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/s02.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/s02.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s02.svg" />
   <img src="assets/index/light/desktop/s02.svg" width="100%" alt="02 / system map" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/ecosystem.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/ecosystem.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/ecosystem.svg" />
   <img src="assets/index/light/desktop/ecosystem.svg" width="100%" alt="Six featured projects across web products, data interfaces, travel and terminal simulation." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/s03.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/s03.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s03.svg" />
   <img src="assets/index/light/desktop/s03.svg" width="100%" alt="03 / projects" />
 </picture>
 
 <a href="https://github.com/araxis07/Siam-Luxe">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/project-01.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/project-01.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-01.svg" />
   <img src="assets/index/light/desktop/project-01.svg" width="100%" alt="Siam Luxe — Multilingual Thai dining platform with ordering, reservations, member accounts and admin workflows. Product foundation; live provider setup and deployment remain. Open repository." />
 </picture>
@@ -64,8 +50,6 @@
 
 <a href="https://github.com/araxis07/AI-Knowledge">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/project-02.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/project-02.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-02.svg" />
   <img src="assets/index/light/desktop/project-02.svg" width="100%" alt="AI Knowledge Base — Private document workspaces, hybrid search and grounded AI answers with visible source citations. Live AI flows require provider configuration. Open repository." />
 </picture>
@@ -73,8 +57,6 @@
 
 <a href="https://github.com/araxis07/Nexus-Tech">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/project-03.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/project-03.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-03.svg" />
   <img src="assets/index/light/desktop/project-03.svg" width="100%" alt="Nexus Tech — Offline business simulation with deterministic systems, company strategy, campaigns and SQLite saves. Stable Alpha; human playtesting and pacing validation remain. Open repository." />
 </picture>
@@ -82,8 +64,6 @@
 
 <a href="https://github.com/araxis07/finance-dashboard">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/project-04.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/project-04.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-04.svg" />
   <img src="assets/index/light/desktop/project-04.svg" width="100%" alt="Finance Dashboard — Income, expense and transaction views with category charts, file upload UI and local persistence. Frontend MVP; parsing is mocked and data stays local. Open repository." />
 </picture>
@@ -91,8 +71,6 @@
 
 <a href="https://github.com/araxis07/Japan-sakura-trails">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/project-05.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/project-05.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-05.svg" />
   <img src="assets/index/light/desktop/project-05.svg" width="100%" alt="Sakura Trails — Japan travel guide with 93 destinations, four languages, a seasonal 3D landscape and local trip planning. Local-first guide and planner; no booking service. Open repository." />
 </picture>
@@ -100,8 +78,6 @@
 
 <a href="https://github.com/araxis07/usa-travel-planner">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/project-06.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/project-06.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-06.svg" />
   <img src="assets/index/light/desktop/project-06.svg" width="100%" alt="Roam America — Explore all 50 U.S. states in five languages with daily itineraries, offline guides and local trip planning. Local planning needs no account; cloud services are optional. Open repository." />
 </picture>
@@ -118,43 +94,31 @@
 </details>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/s04.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/s04.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s04.svg" />
   <img src="assets/index/light/desktop/s04.svg" width="100%" alt="04 / signals" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/signals.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/signals.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/signals.svg" />
   <img src="assets/index/light/desktop/signals.svg" width="100%" alt="Portfolio scope: six featured projects, two travel experiences and one terminal simulation. Not live GitHub statistics." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/s05.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/s05.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s05.svg" />
   <img src="assets/index/light/desktop/s05.svg" width="100%" alt="05 / the route" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/route.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/route.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/route.svg" />
   <img src="assets/index/light/desktop/route.svg" width="100%" alt="TNI graduate in 2025. Four-month IT Support internship at Suvarnabhumi Airport. Studying Japanese in Tokyo in 2026." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/s06.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/s06.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s06.svg" />
   <img src="assets/index/light/desktop/s06.svg" width="100%" alt="06 / stack" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/stack.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/stack.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/stack.svg" />
   <img src="assets/index/light/desktop/stack.svg" width="100%" alt="React, Next.js, TypeScript, Node.js, NestJS, PostgreSQL, Supabase, Docker, GitHub Actions and more." />
 </picture>
@@ -170,8 +134,6 @@ Go and Rust are part of my ongoing learning.
 </details>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/index/dark/mobile/footer.svg" />
-  <source media="(max-width: 600px)" srcset="assets/index/light/mobile/footer.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/footer.svg" />
   <img src="assets/index/light/desktop/footer.svg" width="100%" alt="Stay curious. Build with intent. ARAXIS07 / building beyond the horizon" />
 </picture>
