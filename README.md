@@ -12,6 +12,7 @@
 <a href="https://araxis07.github.io"><img src="assets/index/buttons/portfolio.svg" width="138" height="34" alt="Portfolio" /></a>
 <a href="https://github.com/araxis07?tab=repositories"><img src="assets/index/buttons/repositories.svg" width="138" height="34" alt="Repositories" /></a>
 <a href="https://canva.link/j33ybwperioom0j"><img src="assets/index/buttons/resume.svg" width="138" height="34" alt="Resume" /></a>
+<a href="https://www.linkedin.com/in/pavornprat/"><img src="assets/index/buttons/linkedin.svg" width="138" height="34" alt="Linkedin" /></a>
 <a href="mailto:pavornprat.aa@gmail.com"><img src="assets/index/buttons/email.svg" width="138" height="34" alt="Email" /></a>
 
 </div>
@@ -142,5 +143,6 @@ Go and Rust are part of my ongoing learning.
   <a href="mailto:pavornprat.aa@gmail.com">Start a conversation</a> ·
   <a href="https://canva.link/j33ybwperioom0j">View resume</a> ·
   <a href="https://araxis07.github.io">Visit portfolio</a> ·
-  <a href="https://github.com/araxis07?tab=repositories">Explore code</a>
+  <a href="https://github.com/araxis07?tab=repositories">Explore code</a> ·
+  <a href="https://www.linkedin.com/in/pavornprat/">LinkedIn</a>
 </div>
