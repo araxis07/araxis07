@@ -1,0 +1,249 @@
+{
+  "source": {
+    "repository": "araxis07/araxis07.github.io",
+    "commit": "4bc1677e2ac34fb337199bd5b0aa7856dfd3d608",
+    "path": "index.html",
+    "url": "https://github.com/araxis07/araxis07.github.io/blob/4bc1677e2ac34fb337199bd5b0aa7856dfd3d608/index.html",
+    "note": "Transferred from the existing portfolio at the owner’s request; this is not an independent verification of credentials or language proficiency."
+  },
+  "route": [
+    {
+      "label": "EDUCATION / 2021–2025",
+      "title": "Thai-Nichi Institute of Technology",
+      "description": "B.Sc. Information Technology / GPAX 3.45 / Second-Class Honors."
+    },
+    {
+      "label": "EXPERIENCE / JUN 2021–OCT 2024",
+      "title": "Teaching Assistant / TNI",
+      "description": "Supported programming and AI learning activities, student projects, technical questions and classroom demonstrations."
+    },
+    {
+      "label": "EXPERIENCE / DEC 2024–MAR 2025",
+      "title": "IT Support Intern / Suvarnabhumi Airport",
+      "description": "Four months of computer, software and network troubleshooting, operational support and an internal data-visualization dashboard."
+    },
+    {
+      "label": "CURRENT CHAPTER / JAN–DEC 2026",
+      "title": "Akamonkai Japanese Language School, Tokyo",
+      "description": "One-year Japanese language program. JLPT N2 remains a learning goal."
+    }
+  ],
+  "languages": [
+    {
+      "name": "Thai",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Working proficiency"
+    },
+    {
+      "name": "Japanese",
+      "level": "Intermediate · JLPT N2 goal"
+    }
+  ],
+  "credentials": [
+    {
+      "year": "2024",
+      "name": "Cybersecurity Foundation & Professional — NCSA"
+    },
+    {
+      "year": "2024",
+      "name": "Innovative Application for Smart Life — Hackathon training"
+    },
+    {
+      "year": "2023",
+      "name": "Introduction to Artificial Intelligence — IBM / Coursera"
+    },
+    {
+      "year": "2022",
+      "name": "Kaizen Contest — Final 8"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Siam Luxe",
+      "metrics": [
+        {
+          "label": "ROLE",
+          "value": "Independent full-stack developer"
+        },
+        {
+          "label": "SCOPE",
+          "value": "Customer + admin product"
+        },
+        {
+          "label": "QUALITY",
+          "value": "Playwright E2E + CI"
+        }
+      ],
+      "role": "I designed the product structure and user flows, implemented the frontend, integrated authentication and database-backed workflows, and built the admin and QA foundations.",
+      "approach": "Next.js and TypeScript provide the application architecture; Supabase Auth and PostgreSQL power real workflows; SQL migrations, validation, rate-limiting foundations, Playwright, and GitHub Actions support reliability.",
+      "delivered": [
+        "Multilingual customer experience",
+        "Orders, reservations, reviews, favorites, and loyalty flows",
+        "Member profiles and operational admin tooling"
+      ],
+      "status": "The main product foundation is implemented. Live provider setup, deployment, and production operations remain before a public demo can be offered.",
+      "repository": "https://github.com/araxis07/Siam-Luxe",
+      "screenshots": [
+        {
+          "src": "https://raw.githubusercontent.com/araxis07/Siam-Luxe/6d3f1790f73f37b62c1a408d1541d3bc991419e1/tests/e2e/visual-smoke.spec.ts-snapshots/reservation-calendar-chromium-darwin.png",
+          "alt": "Siam Luxe reservation calendar page",
+          "caption": "Reservation calendar · automated visual test snapshot"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/araxis07/Siam-Luxe/6d3f1790f73f37b62c1a408d1541d3bc991419e1/tests/e2e/visual-smoke.spec.ts-snapshots/gift-cards-chromium-darwin.png",
+          "alt": "Siam Luxe gift card page",
+          "caption": "Gift cards · automated visual test snapshot"
+        }
+      ]
+    },
+    {
+      "name": "AI Knowledge Base",
+      "metrics": [
+        {
+          "label": "ARCHITECTURE",
+          "value": "Modular monolith"
+        },
+        {
+          "label": "ACCESS",
+          "value": "Four workspace roles"
+        },
+        {
+          "label": "RETRIEVAL",
+          "value": "Vector + full-text"
+        }
+      ],
+      "role": "I built the application structure, protected workspace experience, ingestion pipeline, retrieval layer, role model, operational surfaces, and automated quality checks.",
+      "approach": "Next.js handles the application shell and server workflows. Supabase provides Auth, Storage, Realtime, PostgreSQL, and row-level security, while pgvector and full-text search support hybrid retrieval.",
+      "delivered": [
+        "PDF, Markdown, and plain-text ingestion",
+        "Grounded Q&A with document citations",
+        "Workspace roles, activity logs, health checks, and CI"
+      ],
+      "status": "Core product flows are implemented. Live AI answers and semantic indexing require provider credentials; invitation and durable worker-queue workflows remain limited.",
+      "repository": "https://github.com/araxis07/AI-Knowledge",
+      "screenshots": []
+    },
+    {
+      "name": "Nexus Tech",
+      "metrics": [
+        {
+          "label": "STATUS",
+          "value": "Stable Alpha"
+        },
+        {
+          "label": "CONTENT",
+          "value": "Six featured campaigns"
+        },
+        {
+          "label": "CATALOG",
+          "value": "50 scenarios"
+        }
+      ],
+      "role": "I designed and engineered the simulation systems, terminal experience, content model, persistence, campaigns, progression, and release evidence as an independent project.",
+      "approach": "Python powers a deterministic simulation core, Rich and Typer provide the terminal interface, SQLite stores compatible saves, and JSON keeps scenario content separate from game logic.",
+      "delivered": [
+        "Turn-based company, product, market, team, and finance systems",
+        "Offline saves, authored endings, archive progression, and Empire Mode",
+        "Reusable scenarios, templates, rival archetypes, and automated CI"
+      ],
+      "status": "The local gameplay loop is complete at Stable Alpha. Human playtest sessions and final pacing validation are still required before Beta classification.",
+      "repository": "https://github.com/araxis07/Nexus-Tech",
+      "screenshots": []
+    },
+    {
+      "name": "Finance Dashboard",
+      "metrics": [
+        {
+          "label": "SCOPE",
+          "value": "Frontend MVP"
+        },
+        {
+          "label": "STATE",
+          "value": "Zustand + local storage"
+        },
+        {
+          "label": "VISUALS",
+          "value": "Responsive charts"
+        }
+      ],
+      "role": "I designed and implemented the frontend architecture, responsive dashboard, transaction workflow, category visualizations, upload experience, and local persistence.",
+      "approach": "Next.js provides the application structure, Tailwind CSS supports responsive presentation, Zustand manages client state, and Recharts communicates expense patterns.",
+      "delivered": [
+        "Balance, income, and expense overview",
+        "Transaction management and category analytics",
+        "PDF, spreadsheet, and image upload preparation"
+      ],
+      "status": "This is intentionally a frontend-only MVP. Data is stored locally, while OCR parsing, database integration, and investment recommendations remain future work.",
+      "repository": "https://github.com/araxis07/finance-dashboard",
+      "screenshots": []
+    },
+    {
+      "name": "Sakura Trails",
+      "metrics": [
+        {
+          "label": "CONTENT",
+          "value": "93 destinations"
+        },
+        {
+          "label": "LOCALIZATION",
+          "value": "Four languages"
+        },
+        {
+          "label": "DELIVERY",
+          "value": "436 prerendered pages"
+        }
+      ],
+      "role": "I designed and engineered the product architecture, multilingual content model, search and discovery experience, local-first planner, routing, interactive maps, 3D scene, and quality workflow.",
+      "approach": "React and TypeScript power the interface; Vite, server rendering, and esbuild produce localized static pages; Three.js creates the seasonal landscape; Leaflet and OpenStreetMap provide consent-based maps.",
+      "delivered": [
+        "Nine regions, 93 destinations, and nine suggested journeys",
+        "Search, filters, bookmarks, trip planning, sharing, and validated backups",
+        "Responsive images, accessibility checks, Playwright coverage, and CI"
+      ],
+      "status": "The feature-rich local-first implementation is complete. A real public deployment URL, native-speaker proofreading, and remaining editorial verification are required before a production launch.",
+      "repository": "https://github.com/araxis07/Japan-sakura-trails",
+      "screenshots": []
+    },
+    {
+      "name": "Roam America · USA Travel Planner",
+      "metrics": [
+        {
+          "label": "CONTENT",
+          "value": "50 states · 150 places"
+        },
+        {
+          "label": "LOCALIZATION",
+          "value": "Five languages"
+        },
+        {
+          "label": "DELIVERY",
+          "value": "1,005 prerendered pages"
+        }
+      ],
+      "role": "I designed and engineered the product architecture, multilingual content model, discovery experience, state and place guides, daily planner, offline workflow, optional cloud trips, and quality pipeline.",
+      "approach": "React 19 and TypeScript power the interface; Vite produces localized static pages; Leaflet supports maps; browser storage and a service worker enable local-first planning; optional Supabase services add account copies and expiring shared snapshots.",
+      "delivered": [
+        "50 state guides, 150 place profiles, and 450 credited local photographs",
+        "Search, filters, favorites, comparison, route-aware daily planning, backups, printing, and offline reading",
+        "Five-language interfaces, optional cloud sharing, a local Content Studio, Playwright, axe, and CI"
+      ],
+      "status": "The feature-rich local-first build is implemented and verified. Public hosting, production environment configuration, and activation of the optional Supabase account services remain before launch.",
+      "repository": "https://github.com/araxis07/usa-travel-planner",
+      "screenshots": [
+        {
+          "src": "https://raw.githubusercontent.com/araxis07/araxis07.github.io/4bc1677e2ac34fb337199bd5b0aa7856dfd3d608/assets/roam-america-home.webp",
+          "alt": "Roam America discovery homepage with Monument Valley hero and trip search controls",
+          "caption": "Discovery homepage · captured from Roam America v3"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/araxis07/araxis07.github.io/4bc1677e2ac34fb337199bd5b0aa7856dfd3d608/assets/roam-america-planner.webp",
+          "alt": "Roam America daily planner with California activities and route controls",
+          "caption": "Daily itinerary workspace · captured from Roam America v3"
+        }
+      ]
+    }
+  ]
+}

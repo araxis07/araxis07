@@ -49,12 +49,76 @@
 </picture>
 </a>
 
+<details>
+<summary><strong>Siam Luxe · role, engineering &amp; evidence</strong></summary>
+
+**My role**
+
+I designed the product structure and user flows, implemented the frontend, integrated authentication and database-backed workflows, and built the admin and QA foundations.
+
+**Engineering**
+
+Next.js and TypeScript provide the application architecture; Supabase Auth and PostgreSQL power real workflows; SQL migrations, validation, rate-limiting foundations, Playwright, and GitHub Actions support reliability.
+
+**Scope**
+
+ROLE: Independent full-stack developer · SCOPE: Customer + admin product · QUALITY: Playwright E2E + CI
+
+**Delivered**
+
+- Multilingual customer experience
+- Orders, reservations, reviews, favorites, and loyalty flows
+- Member profiles and operational admin tooling
+
+**Current status**
+
+The main product foundation is implemented. Live provider setup, deployment, and production operations remain before a public demo can be offered.
+
+**Interface screenshots**
+
+<p><img src="https://raw.githubusercontent.com/araxis07/Siam-Luxe/6d3f1790f73f37b62c1a408d1541d3bc991419e1/tests/e2e/visual-smoke.spec.ts-snapshots/reservation-calendar-chromium-darwin.png" width="460" alt="Siam Luxe reservation calendar page" /><br /><sub>Reservation calendar · automated visual test snapshot</sub></p>
+
+<p><img src="https://raw.githubusercontent.com/araxis07/Siam-Luxe/6d3f1790f73f37b62c1a408d1541d3bc991419e1/tests/e2e/visual-smoke.spec.ts-snapshots/gift-cards-chromium-darwin.png" width="460" alt="Siam Luxe gift card page" /><br /><sub>Gift cards · automated visual test snapshot</sub></p>
+
+[View source code](https://github.com/araxis07/Siam-Luxe) · [Portfolio case studies](https://araxis07.github.io/#projects)
+
+</details>
+
 <a href="https://github.com/araxis07/AI-Knowledge">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-02.svg" />
   <img src="assets/index/light/desktop/project-02.svg" width="100%" alt="AI Knowledge Base — Private document workspaces, hybrid search and grounded AI answers with visible source citations. Live AI flows require provider configuration. Open repository." />
 </picture>
 </a>
+
+<details>
+<summary><strong>AI Knowledge Base · role, engineering &amp; evidence</strong></summary>
+
+**My role**
+
+I built the application structure, protected workspace experience, ingestion pipeline, retrieval layer, role model, operational surfaces, and automated quality checks.
+
+**Engineering**
+
+Next.js handles the application shell and server workflows. Supabase provides Auth, Storage, Realtime, PostgreSQL, and row-level security, while pgvector and full-text search support hybrid retrieval.
+
+**Scope**
+
+ARCHITECTURE: Modular monolith · ACCESS: Four workspace roles · RETRIEVAL: Vector + full-text
+
+**Delivered**
+
+- PDF, Markdown, and plain-text ingestion
+- Grounded Q&A with document citations
+- Workspace roles, activity logs, health checks, and CI
+
+**Current status**
+
+Core product flows are implemented. Live AI answers and semantic indexing require provider credentials; invitation and durable worker-queue workflows remain limited.
+
+[View source code](https://github.com/araxis07/AI-Knowledge) · [Portfolio case studies](https://araxis07.github.io/#projects)
+
+</details>
 
 <a href="https://github.com/araxis07/Nexus-Tech">
 <picture>
@@ -63,12 +127,70 @@
 </picture>
 </a>
 
+<details>
+<summary><strong>Nexus Tech · role, engineering &amp; evidence</strong></summary>
+
+**My role**
+
+I designed and engineered the simulation systems, terminal experience, content model, persistence, campaigns, progression, and release evidence as an independent project.
+
+**Engineering**
+
+Python powers a deterministic simulation core, Rich and Typer provide the terminal interface, SQLite stores compatible saves, and JSON keeps scenario content separate from game logic.
+
+**Scope**
+
+STATUS: Stable Alpha · CONTENT: Six featured campaigns · CATALOG: 50 scenarios
+
+**Delivered**
+
+- Turn-based company, product, market, team, and finance systems
+- Offline saves, authored endings, archive progression, and Empire Mode
+- Reusable scenarios, templates, rival archetypes, and automated CI
+
+**Current status**
+
+The local gameplay loop is complete at Stable Alpha. Human playtest sessions and final pacing validation are still required before Beta classification.
+
+[View source code](https://github.com/araxis07/Nexus-Tech) · [Portfolio case studies](https://araxis07.github.io/#projects)
+
+</details>
+
 <a href="https://github.com/araxis07/finance-dashboard">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-04.svg" />
   <img src="assets/index/light/desktop/project-04.svg" width="100%" alt="Finance Dashboard — Income, expense and transaction views with category charts, file upload UI and local persistence. Frontend MVP; parsing is mocked and data stays local. Open repository." />
 </picture>
 </a>
+
+<details>
+<summary><strong>Finance Dashboard · role, engineering &amp; evidence</strong></summary>
+
+**My role**
+
+I designed and implemented the frontend architecture, responsive dashboard, transaction workflow, category visualizations, upload experience, and local persistence.
+
+**Engineering**
+
+Next.js provides the application structure, Tailwind CSS supports responsive presentation, Zustand manages client state, and Recharts communicates expense patterns.
+
+**Scope**
+
+SCOPE: Frontend MVP · STATE: Zustand + local storage · VISUALS: Responsive charts
+
+**Delivered**
+
+- Balance, income, and expense overview
+- Transaction management and category analytics
+- PDF, spreadsheet, and image upload preparation
+
+**Current status**
+
+This is intentionally a frontend-only MVP. Data is stored locally, while OCR parsing, database integration, and investment recommendations remain future work.
+
+[View source code](https://github.com/araxis07/finance-dashboard) · [Portfolio case studies](https://araxis07.github.io/#projects)
+
+</details>
 
 <a href="https://github.com/araxis07/Japan-sakura-trails">
 <picture>
@@ -77,12 +199,76 @@
 </picture>
 </a>
 
+<details>
+<summary><strong>Sakura Trails · role, engineering &amp; evidence</strong></summary>
+
+**My role**
+
+I designed and engineered the product architecture, multilingual content model, search and discovery experience, local-first planner, routing, interactive maps, 3D scene, and quality workflow.
+
+**Engineering**
+
+React and TypeScript power the interface; Vite, server rendering, and esbuild produce localized static pages; Three.js creates the seasonal landscape; Leaflet and OpenStreetMap provide consent-based maps.
+
+**Scope**
+
+CONTENT: 93 destinations · LOCALIZATION: Four languages · DELIVERY: 436 prerendered pages
+
+**Delivered**
+
+- Nine regions, 93 destinations, and nine suggested journeys
+- Search, filters, bookmarks, trip planning, sharing, and validated backups
+- Responsive images, accessibility checks, Playwright coverage, and CI
+
+**Current status**
+
+The feature-rich local-first implementation is complete. A real public deployment URL, native-speaker proofreading, and remaining editorial verification are required before a production launch.
+
+[View source code](https://github.com/araxis07/Japan-sakura-trails) · [Portfolio case studies](https://araxis07.github.io/#projects)
+
+</details>
+
 <a href="https://github.com/araxis07/usa-travel-planner">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/project-06.svg" />
   <img src="assets/index/light/desktop/project-06.svg" width="100%" alt="Roam America — Explore all 50 U.S. states in five languages with daily itineraries, offline guides and local trip planning. Local planning needs no account; cloud services are optional. Open repository." />
 </picture>
 </a>
+
+<details>
+<summary><strong>Roam America · USA Travel Planner · role, engineering &amp; evidence</strong></summary>
+
+**My role**
+
+I designed and engineered the product architecture, multilingual content model, discovery experience, state and place guides, daily planner, offline workflow, optional cloud trips, and quality pipeline.
+
+**Engineering**
+
+React 19 and TypeScript power the interface; Vite produces localized static pages; Leaflet supports maps; browser storage and a service worker enable local-first planning; optional Supabase services add account copies and expiring shared snapshots.
+
+**Scope**
+
+CONTENT: 50 states · 150 places · LOCALIZATION: Five languages · DELIVERY: 1,005 prerendered pages
+
+**Delivered**
+
+- 50 state guides, 150 place profiles, and 450 credited local photographs
+- Search, filters, favorites, comparison, route-aware daily planning, backups, printing, and offline reading
+- Five-language interfaces, optional cloud sharing, a local Content Studio, Playwright, axe, and CI
+
+**Current status**
+
+The feature-rich local-first build is implemented and verified. Public hosting, production environment configuration, and activation of the optional Supabase account services remain before launch.
+
+**Interface screenshots**
+
+<p><img src="https://raw.githubusercontent.com/araxis07/araxis07.github.io/4bc1677e2ac34fb337199bd5b0aa7856dfd3d608/assets/roam-america-home.webp" width="460" alt="Roam America discovery homepage with Monument Valley hero and trip search controls" /><br /><sub>Discovery homepage · captured from Roam America v3</sub></p>
+
+<p><img src="https://raw.githubusercontent.com/araxis07/araxis07.github.io/4bc1677e2ac34fb337199bd5b0aa7856dfd3d608/assets/roam-america-planner.webp" width="460" alt="Roam America daily planner with California activities and route controls" /><br /><sub>Daily itinerary workspace · captured from Roam America v3</sub></p>
+
+[View source code](https://github.com/araxis07/usa-travel-planner) · [Portfolio case studies](https://araxis07.github.io/#projects)
+
+</details>
 
 <p align="right"><a href="https://araxis07.github.io"><strong>View case studies on my portfolio →</strong></a></p>
 
@@ -127,8 +313,26 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/route.svg" />
-  <img src="assets/index/light/desktop/route.svg" width="100%" alt="TNI graduate in 2025. Four-month IT Support internship at Suvarnabhumi Airport. Studying Japanese in Tokyo in 2026." />
+  <img src="assets/index/light/desktop/route.svg" width="100%" alt="TNI B.Sc. Information Technology 2021–2025, GPAX 3.45, Second-Class Honors. Teaching Assistant June 2021–October 2024. Four-month IT Support internship at Suvarnabhumi Airport December 2024–March 2025. Akamonkai Japanese Language School, Tokyo, January–December 2026; JLPT N2 is a learning goal." />
 </picture>
+
+<details>
+<summary><strong>Selected credentials, competitions &amp; languages</strong></summary>
+
+**Credentials & competitions**
+
+- 2024 — Cybersecurity Foundation & Professional — NCSA
+- 2024 — Innovative Application for Smart Life — Hackathon training
+- 2023 — Introduction to Artificial Intelligence — IBM / Coursera
+- 2022 — Kaizen Contest — Final 8
+
+**Languages**
+
+- **Thai:** Native
+- **English:** Working proficiency
+- **Japanese:** Intermediate · JLPT N2 goal
+
+</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s06.svg" />
