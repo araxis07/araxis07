@@ -34,8 +34,18 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/ecosystem.svg" />
-  <img src="assets/index/light/desktop/ecosystem.svg" width="100%" alt="Six featured projects across web products, data interfaces, travel and terminal simulation." />
+  <img src="assets/index/light/desktop/ecosystem.svg" width="100%" alt="System Map: web products — Siam Luxe and AI Knowledge Base; data interfaces — Finance Dashboard; travel experiences — Sakura Trails and Roam America; terminal systems — Nexus Tech." />
 </picture>
+
+<details>
+<summary><strong>Explore the project branches</strong></summary>
+
+- **Web Products:** [Siam Luxe](https://github.com/araxis07/Siam-Luxe) · [AI Knowledge Base](https://github.com/araxis07/AI-Knowledge)
+- **Data Interfaces:** [Finance Dashboard](https://github.com/araxis07/finance-dashboard)
+- **Travel Experiences:** [Sakura Trails](https://github.com/araxis07/Japan-sakura-trails) · [Roam America](https://github.com/araxis07/usa-travel-planner)
+- **Terminal Systems:** [Nexus Tech](https://github.com/araxis07/Nexus-Tech)
+
+</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s03.svg" />
