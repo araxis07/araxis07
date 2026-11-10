@@ -17,6 +17,15 @@
 
 </div>
 
+**Pavornprat Mokarat (Aon) · Full-Stack Developer**
+
+I build web products, backend workflows, and data-rich interfaces with Next.js, React, TypeScript, Node.js, PostgreSQL, and Supabase. B.Sc. Information Technology, Thai-Nichi Institute of Technology · Second-Class Honors · GPAX 3.45.
+
+**Start with a case study:** [Siam Luxe — full-stack workflows](https://araxis07.github.io/#case-study-siam) · [AI Knowledge Base — document retrieval](https://araxis07.github.io/#case-study-ai) · [Roam America — travel planning](https://araxis07.github.io/#case-study-usa)
+
+[Contact me](mailto:pavornprat.aa@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pavornprat/)
+
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/s01.svg" />
   <img src="assets/index/light/desktop/s01.svg" width="100%" alt="01 / whoami" />
@@ -90,7 +99,7 @@ The main product foundation is implemented. Live provider setup, deployment, and
 
 <p><img src="https://raw.githubusercontent.com/araxis07/Siam-Luxe/6d3f1790f73f37b62c1a408d1541d3bc991419e1/tests/e2e/visual-smoke.spec.ts-snapshots/gift-cards-chromium-darwin.png" width="460" alt="Siam Luxe gift card page" /><br /><sub>Gift cards · automated visual test snapshot</sub></p>
 
-[View source code](https://github.com/araxis07/Siam-Luxe) · [Portfolio case studies](https://araxis07.github.io/#projects)
+[View source code](https://github.com/araxis07/Siam-Luxe) · [Read this case study](https://araxis07.github.io/#case-study-siam)
 
 </details>
 
@@ -126,7 +135,7 @@ ARCHITECTURE: Modular monolith · ACCESS: Four workspace roles · RETRIEVAL: Vec
 
 Core product flows are implemented. Live AI answers and semantic indexing require provider credentials; invitation and durable worker-queue workflows remain limited.
 
-[View source code](https://github.com/araxis07/AI-Knowledge) · [Portfolio case studies](https://araxis07.github.io/#projects)
+[View source code](https://github.com/araxis07/AI-Knowledge) · [Read this case study](https://araxis07.github.io/#case-study-ai)
 
 </details>
 
@@ -162,7 +171,7 @@ STATUS: Stable Alpha · CONTENT: Six featured campaigns · CATALOG: 50 scenarios
 
 The local gameplay loop is complete at Stable Alpha. Human playtest sessions and final pacing validation are still required before Beta classification.
 
-[View source code](https://github.com/araxis07/Nexus-Tech) · [Portfolio case studies](https://araxis07.github.io/#projects)
+[View source code](https://github.com/araxis07/Nexus-Tech) · [Read this case study](https://araxis07.github.io/#case-study-nexus)
 
 </details>
 
@@ -198,7 +207,7 @@ SCOPE: Frontend MVP · STATE: Zustand + local storage · VISUALS: Responsive cha
 
 This is intentionally a frontend-only MVP. Data is stored locally, while OCR parsing, database integration, and investment recommendations remain future work.
 
-[View source code](https://github.com/araxis07/finance-dashboard) · [Portfolio case studies](https://araxis07.github.io/#projects)
+[View source code](https://github.com/araxis07/finance-dashboard) · [Read this case study](https://araxis07.github.io/#case-study-finance)
 
 </details>
 
@@ -234,7 +243,7 @@ CONTENT: 93 destinations · LOCALIZATION: Four languages · DELIVERY: 436 preren
 
 The feature-rich local-first implementation is complete. A real public deployment URL, native-speaker proofreading, and remaining editorial verification are required before a production launch.
 
-[View source code](https://github.com/araxis07/Japan-sakura-trails) · [Portfolio case studies](https://araxis07.github.io/#projects)
+[View source code](https://github.com/araxis07/Japan-sakura-trails) · [Read this case study](https://araxis07.github.io/#case-study-sakura)
 
 </details>
 
@@ -276,7 +285,7 @@ The feature-rich local-first build is implemented and verified. Public hosting, 
 
 <p><img src="https://raw.githubusercontent.com/araxis07/araxis07.github.io/4bc1677e2ac34fb337199bd5b0aa7856dfd3d608/assets/roam-america-planner.webp" width="460" alt="Roam America daily planner with California activities and route controls" /><br /><sub>Daily itinerary workspace · captured from Roam America v3</sub></p>
 
-[View source code](https://github.com/araxis07/usa-travel-planner) · [Portfolio case studies](https://araxis07.github.io/#projects)
+[View source code](https://github.com/araxis07/usa-travel-planner) · [Read this case study](https://araxis07.github.io/#case-study-usa)
 
 </details>
 
@@ -353,6 +362,12 @@ The feature-rich local-first build is implemented and verified. Public hosting, 
   <source media="(prefers-color-scheme: dark)" srcset="assets/index/dark/desktop/stack.svg" />
   <img src="assets/index/light/desktop/stack.svg" width="100%" alt="Languages: TypeScript, JavaScript, Python, Go, Rust, Ruby, SQL. Frontend: Next.js, React, Tailwind CSS and Material UI. Backend: Node.js, NestJS and Express. Data: PostgreSQL, Supabase, MySQL, SQLite and pgvector. Testing: Playwright and Postman. Delivery: Git, GitHub, GitHub Actions, CI/CD pipelines, Docker and Vite." />
 </picture>
+
+**Core:** Next.js · React · TypeScript · JavaScript · Node.js · Tailwind CSS · PostgreSQL · Supabase
+
+**Supporting tools & languages:** Python · Ruby · SQL · Git / GitHub · Playwright · Postman · GitHub Actions · CI/CD pipelines
+
+**Ongoing learning:** Go · Rust. The project details above show the technologies used in each build.
 
 <details>
 <summary><strong>Additional technologies</strong></summary>

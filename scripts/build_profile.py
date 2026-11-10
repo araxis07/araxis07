@@ -287,7 +287,8 @@ def project_details(project):
             parts += [
                 '<p><img src="'+escape(shot['src'],quote=True)+'" width="460" alt="'+escape(shot['alt'],quote=True)+'" /><br /><sub>'+escape(shot['caption'])+'</sub></p>', ''
             ]
-    parts += ['[View source code]('+project['repository']+') · [Portfolio case studies](https://araxis07.github.io/#projects)', '', '</details>']
+    dialog_id = next(p['case_study'] for branch in SYSTEM_MAP['branches'] for p in branch['projects'] if project['repository'].rstrip('/').endswith('/'+p['repo']))
+    parts += ['[View source code]('+project['repository']+') · [Read this case study](https://araxis07.github.io/#'+dialog_id+')', '', '</details>']
     return '\n'.join(parts)
 
 def credentials_and_languages():
@@ -315,7 +316,14 @@ def readme():
         (badge_dir/f'{label.lower()}.svg').write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="138" height="34" viewBox="0 0 138 34" role="img" aria-label="{label.title()}"><title>{label.title()}</title><rect x=".5" y=".5" width="137" height="33" rx="3" fill="#141525" stroke="#{color}"/><path d="M1 7V27" stroke="#{color}" stroke-width="2"/><text x="69" y="21.5" fill="#f1efff" text-anchor="middle" font-family="Consolas,monospace" font-size="11" letter-spacing="1.1">{label}</text></svg>\n''')
     # Keep anchors in one HTML block so GitHub lays them out side by side.
     parts += ['\n'.join(f'<a href="{url}"><img src="assets/index/buttons/{label.lower()}.svg" width="138" height="34" alt="{label.title()}" /></a>' for label,url,color in buttons)]
-    parts+=['</div>',picture('s01','01 / whoami'),picture('whoami','TNI Information Technology graduate with Second-Class Honors. Frontend, backend APIs and data interfaces. Learning Go, Rust and Japanese; JLPT N2 is a long-term goal.'),picture('s02','02 / system map'),picture('ecosystem','System Map: web products — Siam Luxe and AI Knowledge Base; data interfaces — Finance Dashboard; travel experiences — Sakura Trails and Roam America; terminal systems — Nexus Tech.'),project_branches(),picture('s03','03 / projects')]
+    parts+=['</div>', '''**Pavornprat Mokarat (Aon) · Full-Stack Developer**
+
+I build web products, backend workflows, and data-rich interfaces with Next.js, React, TypeScript, Node.js, PostgreSQL, and Supabase. B.Sc. Information Technology, Thai-Nichi Institute of Technology · Second-Class Honors · GPAX 3.45.
+
+**Start with a case study:** [Siam Luxe — full-stack workflows](https://araxis07.github.io/#case-study-siam) · [AI Knowledge Base — document retrieval](https://araxis07.github.io/#case-study-ai) · [Roam America — travel planning](https://araxis07.github.io/#case-study-usa)
+
+[Contact me](mailto:pavornprat.aa@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pavornprat/)
+''',picture('s01','01 / whoami'),picture('whoami','TNI Information Technology graduate with Second-Class Honors. Frontend, backend APIs and data interfaces. Learning Go, Rust and Japanese; JLPT N2 is a long-term goal.'),picture('s02','02 / system map'),picture('ecosystem','System Map: web products — Siam Luxe and AI Knowledge Base; data interfaces — Finance Dashboard; travel experiences — Sakura Trails and Roam America; terminal systems — Nexus Tech.'),project_branches(),picture('s03','03 / projects')]
     for i,(name,repo,category,description,stack,status) in enumerate(PROJECTS,1):
         parts += [f'<a href="https://github.com/araxis07/{repo}">\n'+picture(f'project-{i:02}',f'{name} — {description} {status} Open repository.')+'\n</a>']
         parts += [project_details(HIGHLIGHTS['projects'][i-1])]
@@ -335,7 +343,13 @@ def readme():
 
 </details>''',
     picture('s05','05 / the route'),picture('route','TNI B.Sc. Information Technology 2021–2025, GPAX 3.45, Second-Class Honors. Teaching Assistant June 2021–October 2024. Four-month IT Support internship at Suvarnabhumi Airport December 2024–March 2025. Akamonkai Japanese Language School, Tokyo, January–December 2026; JLPT N2 is a learning goal.'),credentials_and_languages(),picture('s06','06 / stack'),picture('stack','Languages: TypeScript, JavaScript, Python, Go, Rust, Ruby, SQL. Frontend: Next.js, React, Tailwind CSS and Material UI. Backend: Node.js, NestJS and Express. Data: PostgreSQL, Supabase, MySQL, SQLite and pgvector. Testing: Playwright and Postman. Delivery: Git, GitHub, GitHub Actions, CI/CD pipelines, Docker and Vite.')]
-    parts+=['''<details>
+    parts+=['''**Core:** Next.js · React · TypeScript · JavaScript · Node.js · Tailwind CSS · PostgreSQL · Supabase
+
+**Supporting tools & languages:** Python · Ruby · SQL · Git / GitHub · Playwright · Postman · GitHub Actions · CI/CD pipelines
+
+**Ongoing learning:** Go · Rust. The project details above show the technologies used in each build.
+
+<details>
 <summary><strong>Additional technologies</strong></summary>
 <br />
 
